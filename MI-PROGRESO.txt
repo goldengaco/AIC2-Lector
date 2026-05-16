@@ -1,0 +1,54 @@
+=== MI PROGRESO AIC2-LECTOR ===
+Comenzado: 2026-05-09
+Meta: C2 Lectura Inglés Técnico en 18-24 meses
+
+---
+
+FASE 0: CIMIENTO (Semanas 1-4)
+A0 → A2 Lectura
+
+  SEMANA 1 (2026-05-09 a 2026-05-15)
+  ==================================
+
+  Verbos meta: 15-20 de los 80 iniciales
+
+  Lunes 2026-05-09:
+    ✅ Creé plan de Semana 1
+    ✅ Leí lista de 80 verbos (familiarización)
+    Verbos comenzados: Open, Close, Click, Press, Type
+    Tiempo: 30 min
+    Confianza: 60% (es normal, día 1)
+
+  Martes 2026-05-10:
+    ⏳ Pendiente
+
+  Miércoles 2026-05-11:
+    ⏳ Pendiente
+
+  Jueves 2026-05-12:
+    ⏳ Pendiente
+
+  Viernes 2026-05-13:
+    ⏳ Pendiente
+
+  Sábado 2026-05-14:
+    ⏳ Pendiente
+
+  Domingo 2026-05-15:
+    ⏳ Pendiente (cierre de semana - test)
+
+  Resumen Semana 1:
+    Verbos dominados: ⏳ /80
+    Velocidad lectora: N/A (aún no medible)
+    Racha de días: ⏳
+    Sensación: ⏳
+
+---
+
+NOTA IMPORTANTE:
+Este archivo es TU diario. Actualízalo cada día.
+Si un día no estudias, NO TE SIENTAS MAL. Simplemente escribe la razón:
+  - "Martes: Ocupado en trabajo, solo 10 min. Está bien."
+  - "Miércoles: Enfermo, salteo. Mañana vuelvo."
+
+La consistencia gana a la perfección. 📈

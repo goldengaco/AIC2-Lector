@@ -1,0 +1,100 @@
+# ANKI DECK: Gramática Completa A2→B1 (Importable)
+
+Frente	Reverso	Etiqueta
+PRESENT SIMPLE (Habitual)	Forma: I/you/we/they work | he/she/it works | Uso: acciones habituales, verdades generales | Ejemplo: I work every day | Negativa: I don't work | Pregunta: Do you work?	Present Tense
+PRESENT SIMPLE (Negativa)	Forma: I don't work, you don't work, he doesn't work | Ejemplo: She doesn't like coffee | Nota: "do" para I/you/we/they, "does" para he/she/it	Present Tense
+PRESENT SIMPLE (Pregunta)	Forma: Do I work? Does he work? | Ejemplo: Do you understand? Does she know? | Orden: Do/Does + sujeto + verbo	Present Tense
+PRESENT CONTINUOUS (Ahora)	Forma: I am working, you are working, he is working | Uso: acción en progreso ahora | Ejemplo: I am reading right now | Negativa: I am not working | Pregunta: Are you working?	Present Tense
+PRESENT CONTINUOUS (Negativa)	Forma: I am not (I'm not) working, you are not (aren't) working, he is not (isn't) working | Ejemplo: She is not listening | Nota: Contracción común	Present Tense
+PRESENT CONTINUOUS (Pregunta)	Forma: Am I working? Are you working? Is he working? | Ejemplo: Is she coming tomorrow? Are they playing?	Present Tense
+PRESENT PERFECT (Reciente)	Forma: I have worked, you have worked, he has worked | Uso: desde pasado hasta ahora | Ejemplo: I have finished the project | Negativa: I have not finished | Pregunta: Have you finished?	Present Tense
+PRESENT PERFECT (Negativa)	Forma: I have not (haven't) worked, he has not (hasn't) worked | Ejemplo: She hasn't arrived yet | Nota: have/hasn't vs haven't/haven't	Present Tense
+PRESENT PERFECT (Pregunta)	Forma: Have I worked? Has he worked? | Ejemplo: Have you seen the movie? Has she completed it?	Present Tense
+PRESENT PERFECT CONTINUOUS	Forma: I have been working | Uso: acción durativa desde pasado a ahora | Ejemplo: I have been studying for 2 hours | Nota: duración importante	Present Tense
+PAST SIMPLE (Completado)	Forma: I worked, you worked, he worked | Uso: acción completada en pasado | Ejemplo: I worked yesterday | Negativa: I didn't work | Pregunta: Did you work?	Past Tense
+PAST SIMPLE (Verbos irregulares)	Formas comunes: go→went, come→came, see→saw, have→had, eat→ate, drink→drank | Ejemplo: I went to the store | Nota: no agregar -ed	Past Tense
+PAST SIMPLE (Negativa)	Forma: I didn't work, you didn't work, he didn't work | Ejemplo: She didn't understand | Nota: "did" para todo, verbo en forma base	Past Tense
+PAST SIMPLE (Pregunta)	Forma: Did I work? Did you work? | Ejemplo: Did you see it? Did she call? | Nota: Did + sujeto + verbo base	Past Tense
+PAST CONTINUOUS (Estaba haciendo)	Forma: I was working, you were working, he was working | Uso: acción en progreso en pasado | Ejemplo: I was coding when the bug appeared | Negativa: I was not working | Pregunta: Were you working?	Past Tense
+PAST CONTINUOUS (Negativa)	Forma: I was not (wasn't) working, you were not (weren't) working | Ejemplo: He wasn't listening | Nota: was/weren't variación	Past Tense
+PAST CONTINUOUS (Pregunta)	Forma: Was I working? Were you working? | Ejemplo: Were they playing? Was she sleeping?	Past Tense
+PAST PERFECT (Más pasado)	Forma: I had worked, you had worked, he had worked | Uso: anterior a otro evento pasado | Ejemplo: I had finished before the meeting started | Negativa: I hadn't worked | Pregunta: Had you finished?	Past Tense
+PAST PERFECT CONTINUOUS	Forma: I had been working | Uso: acción durativa hasta cierto momento pasado | Ejemplo: I had been studying for 2 hours when he called	Past Tense
+FUTURE SIMPLE (Will)	Forma: I will work, you will work, he will work | Uso: predicción, decisión futura | Ejemplo: AI will change everything | Negativa: I won't work | Pregunta: Will you help?	Future Tense
+FUTURE SIMPLE (Contracción)	Forma: I'll work, you'll work, he'll work | Negativa: I won't (will not) | Ejemplo: I'll see you tomorrow | Nota: won't es irregular	Future Tense
+FUTURE GOING TO	Forma: I am going to work, you are going to work, he is going to work | Uso: plan seguro, intención clara | Ejemplo: I am going to learn Python | Negativa: I am not going to | Pregunta: Are you going to?	Future Tense
+FUTURE GOING TO (Contracción)	Forma: I'm going to work, you're going to work, he's going to work | Ejemplo: She's going to arrive tomorrow | Nota: muy común en inglés hablado	Future Tense
+FUTURE GOING TO (Pregunta)	Forma: Am I going to work? Are you going to work? Is he going to work? | Ejemplo: Are you going to attend? Is she going to call?	Future Tense
+PRESENT SIMPLE PARA FUTURO	Forma: The meeting is tomorrow at 3pm | Uso: horarios, planes fijos | Ejemplo: The deployment starts next Monday | Nota: para eventos programados	Future Tense
+PRESENT CONTINUOUS PARA FUTURO	Forma: I am working tomorrow | Uso: planes seguros a corto plazo | Ejemplo: Are you coming to the meeting tomorrow? | Nota: futuro cercano	Future Tense
+MODAL: CAN (Habilidad)	Forma: I can work, you can work, he can work | Uso: habilidad, posibilidad | Ejemplo: I can code in Python | Negativa: I can't work | Pregunta: Can you help?	Modal Verbs
+MODAL: COULD (Podría)	Forma: I could work, you could work, he could work | Uso: habilidad pasada, posibilidad, cortesía | Ejemplo: I could deploy this tomorrow | Negativa: I couldn't | Pregunta: Could you help me?	Modal Verbs
+MODAL: WOULD (Sería)	Forma: I would work, you would work, he would work | Uso: hipotético, cortesía | Ejemplo: Would you like coffee? This would be faster | Negativa: I wouldn't | Pregunta: Would you help?	Modal Verbs
+MODAL: SHOULD (Deberías)	Forma: I should work, you should work, he should work | Uso: recomendación, deber | Ejemplo: You should use this library | Negativa: I shouldn't | Pregunta: Should I do this?	Modal Verbs
+MODAL: MUST (Debes)	Forma: I must work, you must work, he must work | Uso: obligación, necesidad fuerte | Ejemplo: We must fix this bug | Negativa: You must not (mustn't) | Pregunta: Must I go?	Modal Verbs
+MODAL: MAY/MIGHT (Podría)	Forma: I may work, you might work, he may work | Uso: posibilidad, permiso | Ejemplo: This might work | Negativa: You may not enter | Pregunta: May I ask?	Modal Verbs
+NEED TO (Necesito)	Forma: I need to work, you need to work, he needs to work | Uso: necesidad, obligación | Ejemplo: I need to deploy this | Negativa: I don't need to | Pregunta: Do I need to?	Modal Verbs
+HAVE TO (Tengo que)	Forma: I have to work, you have to work, he has to work | Uso: obligación, necesidad | Ejemplo: You have to submit the report | Negativa: I don't have to | Pregunta: Do you have to?	Modal Verbs
+VOZ PASIVA (Simple)	Forma: The code is deployed | Estructura: be + past participle | Ejemplo: The system was updated yesterday | Activa: We updated the system | Pasiva: The system was updated	Passive Voice
+VOZ PASIVA (BY - agente)	Forma: The code was written by John | Uso: cuando es importante quién hizo | Ejemplo: The app is developed by our team | Nota: "by" introduce el agente	Passive Voice
+VOZ PASIVA (Present Simple)	Forma: The bug is fixed | Ejemplo: The report is submitted every Monday | Estructura: am/is/are + past participle	Passive Voice
+VOZ PASIVA (Past Simple)	Forma: The bug was fixed | Ejemplo: The system was deployed yesterday | Estructura: was/were + past participle	Passive Voice
+VOZ PASIVA (Present Continuous)	Forma: The code is being written | Ejemplo: The feature is being tested right now | Estructura: is/are + being + past participle	Passive Voice
+VOZ PASIVA (Past Continuous)	Forma: The code was being written | Estructura: was/were + being + past participle	Passive Voice
+VOZ PASIVA (Present Perfect)	Forma: The feature has been completed | Estructura: has/have + been + past participle	Passive Voice
+VOZ PASIVA (Future)	Forma: The system will be updated tomorrow | Estructura: will be + past participle | Ejemplo: The code will be reviewed next week	Passive Voice
+CONDICIONAL TIPO 0 (Real)	Forma: If + present simple, present simple | Estructura: If you heat water, it boils | Uso: verdades científicas | Ejemplo: If you press enter, the form submits	Conditional
+CONDICIONAL TIPO 1 (Posible)	Forma: If + present simple, will + verbo | Estructura: If you study hard, you will pass | Uso: posible, probable | Ejemplo: If I have time, I will learn Python	Conditional
+CONDICIONAL TIPO 2 (Improbable)	Forma: If + past simple, would + verbo | Estructura: If I had time, I would learn German | Uso: hipotético, improbable | Ejemplo: If you were CEO, what would you do?	Conditional
+CONDICIONAL TIPO 3 (Imposible)	Forma: If + past perfect, would have + past participle | Estructura: If I had studied, I would have passed | Uso: situación contraria a hecho | Ejemplo: If we had known, we would have acted	Conditional
+PHRASAL VERB: SET UP	Significado: Configurar, establecer | Ejemplo: Set up a server | Forma: set up, sets up, setting up, set up | Contexto: Sistemas, organización	Phrasal Verbs
+PHRASAL VERB: BREAK DOWN	Significado: Analizar, fallar | Ejemplo: Break down the algorithm | Forma: break down | Contexto: Análisis, descomposición	Phrasal Verbs
+PHRASAL VERB: WORK OUT	Significado: Resolver, funcionar | Ejemplo: Work out the solution | Forma: work out | Contexto: Problemas, soluciones	Phrasal Verbs
+PHRASAL VERB: BRING UP	Significado: Mencionar, plantear | Ejemplo: Bring up the issue in the meeting | Forma: bring up | Contexto: Conversación, reuniones	Phrasal Verbs
+PHRASAL VERB: LOOK INTO	Significado: Investigar | Ejemplo: Look into that bug | Forma: look into | Contexto: Investigación, análisis	Phrasal Verbs
+PHRASAL VERB: COME UP WITH	Significado: Crear, inventar | Ejemplo: Come up with a solution | Forma: come up with | Contexto: Innovación, ideas	Phrasal Verbs
+PHRASAL VERB: ROLL OUT	Significado: Desplegar, lanzar | Ejemplo: Roll out the new version | Forma: roll out | Contexto: Lanzamiento, despliegue	Phrasal Verbs
+PHRASAL VERB: SHUT DOWN	Significado: Cerrar, apagar | Ejemplo: Shut down the service | Forma: shut down | Contexto: Sistemas, finalización	Phrasal Verbs
+PHRASAL VERB: CARRY OUT	Significado: Llevar a cabo, ejecutar | Ejemplo: Carry out the plan | Forma: carry out | Contexto: Ejecución, implementación	Phrasal Verbs
+PHRASAL VERB: PUT OFF	Significado: Posponer | Ejemplo: Put off the meeting | Forma: put off | Contexto: Planificación, tiempo	Phrasal Verbs
+
+---
+
+## CÓMO ESTUDIAR GRAMÁTICA:
+
+### Enfoque SRS clásico (NO memorización)
+
+✅ Paso 1: Lee la tarjeta (frente)
+✅ Paso 2: Intenta recordar (reverso)
+✅ Paso 3: Verifica si está correcto
+✅ Paso 4: Anki decide cuándo repetir
+
+### Importante:
+
+❌ NO intentes memorizar todas las explicaciones
+✅ SÍ intenta RECONOCER los patrones
+✅ Repite hasta que veas el patrón automáticamente
+✅ Después practica con frases reales
+
+### Cronograma sugerido:
+
+- Semanas 3-4 (mes 1): Present + Past basics (8 tiempos)
+- Semanas 5-8 (mes 2): Future + Modales (10 tiempos + 8 modales)
+- Semanas 9-12 (mes 3): Voz pasiva + Condicionales
+- Semanas 13-16: Phrasal verbs + refinamiento
+
+---
+
+NOTAS CRÍTICAS:
+
+✅ Esta es la gramática B1-level
+✅ Incluye tanto formas positivas como negativas y preguntas
+✅ Phrasal verbs están incluidos (importante para tech)
+✅ Ejemplos contextualizados en inglés técnico
+
+---
+
+Versión: 1.0
+Fecha: 2026-05-09
+Importable: Anki
+Estado: COMPLETO

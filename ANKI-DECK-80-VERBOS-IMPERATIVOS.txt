@@ -1,0 +1,129 @@
+# ANKI DECK: 80 Verbos Imperativos (Formato importable)
+
+## INSTRUCCIONES DE USO:
+# 1. Copia TODO el contenido abajo (desde "Frente	Reverso" hasta el final)
+# 2. Abre Anki → File → Import
+# 3. Pega el contenido en un archivo .txt
+# 4. Selecciona el archivo, importa
+# 5. Elige "Create new deck" → Nombre: "AIC2-Lector-80-Verbos"
+# 6. Comienza a estudiar
+
+# FORMATO: Frente<TAB>Reverso<TAB>Etiqueta
+
+Frente	Reverso	Etiqueta
+OPEN	Abre/abre | Pronunciación: OH-pen | Ejemplo: Open the file | Cognado: Abierto/abrir	Acción Básica
+CLOSE	Cierra | Pronunciación: KLOHS | Ejemplo: Close the window | Cognado: Clausura	Acción Básica
+CLICK	Haz clic | Pronunciación: KLIK | Ejemplo: Click the button | Cognado: Hacer clic	Acción Básica
+PRESS	Presiona | Pronunciación: PRES | Ejemplo: Press Enter | Cognado: Presión	Acción Básica
+TAP	Toca (móvil) | Pronunciación: TAP | Ejemplo: Tap the icon | Cognado: N/A	Acción Básica
+HOLD	Mantén | Pronunciación: HOHLD | Ejemplo: Hold the key | Cognado: Sostener	Acción Básica
+RELEASE	Suelta | Pronunciación: rih-LEES | Ejemplo: Release the mouse | Cognado: Soltar	Acción Básica
+DRAG	Arrastra | Pronunciación: DRAG | Ejemplo: Drag the file | Cognado: Arrastrar	Acción Básica
+DROP	Suelta (después de drag) | Pronunciación: DROP | Ejemplo: Drop it here | Cognado: Caer	Acción Básica
+SWIPE	Desliza | Pronunciación: SWAYP | Ejemplo: Swipe right | Cognado: Deslizar	Acción Básica
+SELECT	Selecciona | Pronunciación: se-LEKT | Ejemplo: Select the option | Cognado: Seleccionar	Selección
+CHOOSE	Elige | Pronunciación: CHOOZ | Ejemplo: Choose a name | Cognado: Escoger	Selección
+PICK	Escoge | Pronunciación: PIK | Ejemplo: Pick one | Cognado: N/A	Selección
+MARK	Marca | Pronunciación: MARK | Ejemplo: Mark the box | Cognado: Marcar	Selección
+TICK	Marca (con palomita) | Pronunciación: TIK | Ejemplo: Tick the checkbox | Cognado: Tildar	Selección
+CHECK	Verifica/revisa | Pronunciación: CHEK | Ejemplo: Check your answers | Cognado: Chequear	Selección
+HIGHLIGHT	Resalta | Pronunciación: HY-layt | Ejemplo: Highlight the text | Cognado: Resaltar	Selección
+UNDERLINE	Subraya | Pronunciación: UN-der-lyn | Ejemplo: Underline the verb | Cognado: Subrayar	Selección
+CIRCLE	Encierra | Pronunciación: SER-kul | Ejemplo: Circle the answer | Cognado: Círculo	Selección
+CROSS OUT	Tacha | Pronunciación: KROS OUT | Ejemplo: Cross out the wrong word | Cognado: Tachar	Selección
+TYPE	Escribe (teclado) | Pronunciación: TAYP | Ejemplo: Type your name | Cognado: Tipografía	Datos/Texto
+ENTER	Introduce/Ingresa | Pronunciación: EN-ter | Ejemplo: Enter the password | Cognado: Entrar	Datos/Texto
+FILL IN	Rellena | Pronunciación: FIL IN | Ejemplo: Fill in the form | Cognado: Llenar	Datos/Texto
+FILL OUT	Rellena | Pronunciación: FIL OUT | Ejemplo: Fill out the form | Cognado: Llenar	Datos/Texto
+COMPLETE	Completa | Pronunciación: KUM-pleet | Ejemplo: Complete the sentence | Cognado: Completar	Datos/Texto
+WRITE	Escribe | Pronunciación: RAYT | Ejemplo: Write your answer | Cognado: Escribir	Datos/Texto
+REWRITE	Reescribe | Pronunciación: ree-RAYT | Ejemplo: Rewrite the paragraph | Cognado: Reescribir	Datos/Texto
+COPY	Copia | Pronunciación: KAH-pee | Ejemplo: Copy the text | Cognado: Copiar	Datos/Texto
+PASTE	Pega | Pronunciación: PAYST | Ejemplo: Paste here | Cognado: Pegar	Datos/Texto
+CUT	Corta | Pronunciación: KUT | Ejemplo: Cut the selection | Cognado: Cortar	Datos/Texto
+DELETE	Elimina | Pronunciación: de-LEET | Ejemplo: Delete the file | Cognado: Deletéreo	Datos/Texto
+ERASE	Borra | Pronunciación: ih-RAYS | Ejemplo: Erase the line | Cognado: Borrar	Datos/Texto
+REPLACE	Reemplaza | Pronunciación: rih-PLAYS | Ejemplo: Replace X with Y | Cognado: Reemplazar	Datos/Texto
+SAVE	Guarda | Pronunciación: SAYV | Ejemplo: Save your work | Cognado: Salvar	Archivo
+LOAD	Carga | Pronunciación: LOHD | Ejemplo: Load the file | Cognado: Cargar	Archivo
+DOWNLOAD	Descarga | Pronunciación: DOWN-lohd | Ejemplo: Download the app | Cognado: Descargar	Archivo
+UPLOAD	Sube | Pronunciación: UP-lohd | Ejemplo: Upload your photo | Cognado: Subir	Archivo
+IMPORT	Importa | Pronunciación: IM-port | Ejemplo: Import the data | Cognado: Importar	Archivo
+EXPORT	Exporta | Pronunciación: EK-sport | Ejemplo: Export as PDF | Cognado: Exportar	Archivo
+PRINT	Imprime | Pronunciación: PRINT | Ejemplo: Print the page | Cognado: Imprimir	Archivo
+SHARE	Comparte | Pronunciación: SHAIR | Ejemplo: Share the link | Cognado: Compartir	Archivo
+READ	Lee | Pronunciación: REED | Ejemplo: Read the chapter | Cognado: Leer	Cognición
+LISTEN	Escucha | Pronunciación: LIS-un | Ejemplo: Listen to the audio | Cognado: Escuchar	Cognición
+REPEAT	Repite | Pronunciación: rih-PEET | Ejemplo: Repeat the word | Cognado: Repetir	Cognición
+TRANSLATE	Traduce | Pronunciación: trans-LAYT | Ejemplo: Translate the sentence | Cognado: Traducir	Cognición
+MATCH	Empareja | Pronunciación: MACH | Ejemplo: Match the columns | Cognado: Emparejar	Cognición
+SORT	Ordena | Pronunciación: SORT | Ejemplo: Sort by date | Cognado: Sortear	Cognición
+ORDER	Ordena | Pronunciación: OR-der | Ejemplo: Order alphabetically | Cognado: Orden	Cognición
+GROUP	Agrupa | Pronunciación: GROOP | Ejemplo: Group similar items | Cognado: Grupo	Cognición
+IDENTIFY	Identifica | Pronunciación: eye-DEN-ti-fy | Ejemplo: Identify the noun | Cognado: Identificar	Cognición
+DEFINE	Define | Pronunciación: dih-FYN | Ejemplo: Define the term | Cognado: Definir	Cognición
+DESCRIBE	Describe | Pronunciación: dih-SKYB | Ejemplo: Describe the picture | Cognado: Describir	Cognición
+EXPLAIN	Explica | Pronunciación: ik-SPLAYN | Ejemplo: Explain why | Cognado: Explicar	Cognición
+CHECK	Verifica | Pronunciación: CHEK | Ejemplo: Check your answers | Cognado: Chequear	Verificación
+REVIEW	Repasa | Pronunciación: rih-VYOO | Ejemplo: Review the lesson | Cognado: Repasar	Verificación
+CONFIRM	Confirma | Pronunciación: kun-FORM | Ejemplo: Confirm your email | Cognado: Confirmar	Verificación
+CANCEL	Cancela | Pronunciación: KAN-sul | Ejemplo: Cancel the order | Cognado: Cancelar	Verificación
+SUBMIT	Envía/entrega | Pronunciación: sub-MIT | Ejemplo: Submit the form | Cognado: Someter	Verificación
+SEND	Envía | Pronunciación: SEND | Ejemplo: Send the message | Cognado: Enviar	Verificación
+RECEIVE	Recibe | Pronunciación: rih-SEEV | Ejemplo: Receive a notification | Cognado: Recibir	Verificación
+PAUSE	Pausa | Pronunciación: PAWZ | Ejemplo: Pause the video | Cognado: Pausa	Adicional
+PLAY	Reproduce | Pronunciación: PLAY | Ejemplo: Play the audio | Cognado: Jugar	Adicional
+STOP	Detén | Pronunciación: STOP | Ejemplo: Stop the timer | Cognado: Parar	Adicional
+START	Comienza | Pronunciación: START | Ejemplo: Start the download | Cognado: Comenzar	Adicional
+CONTINUE	Continúa | Pronunciación: kun-TIN-yoo | Ejemplo: Continue reading | Cognado: Continuar	Adicional
+BACK	Atrás | Pronunciación: BAK | Ejemplo: Go back | Cognado: Atrás	Adicional
+NEXT	Siguiente | Pronunciación: NEKS | Ejemplo: Click next | Cognado: Próximo	Adicional
+PREVIOUS	Anterior | Pronunciación: PREE-vus | Ejemplo: Go previous | Cognado: Previo	Adicional
+EXIT	Sal/salir | Pronunciación: EG-zit | Ejemplo: Exit the program | Cognado: Salida	Adicional
+HELP	Ayuda | Pronunciación: HELP | Ejemplo: Click help | Cognado: Ayuda	Adicional
+
+---
+
+## INSTRUCCIONES DESPUÉS DE IMPORTAR:
+
+### Paso 1: Importar el deck
+1. Abre Anki
+2. File → Import
+3. Selecciona el archivo con este contenido
+4. Dale nombre: "AIC2-Lector-80-Verbos"
+
+### Paso 2: Configurar el estudio
+1. Click en el deck
+2. Click en "Study"
+3. Estudia 5-10 tarjetas/día
+4. Marca confianza: Again, Good, Easy
+
+### Paso 3: Rutina diaria
+- Mañana (15 min): Nuevas tarjetas (5-10/día)
+- Tarde (15 min): Repaso SRS
+- Noche (5 min): Revisión
+
+### Paso 4: Seguimiento
+- Semana 1: 20 verbos completados
+- Semana 2: 40 verbos completados
+- Semana 3-4: 80 verbos completados
+
+---
+
+## NOTAS IMPORTANTES:
+
+✅ Este deck está optimizado para B1-level
+✅ Incluye pronunciación americana
+✅ Incluye cognados españoles
+✅ Incluye ejemplos contextualizados
+✅ Las etiquetas te permiten filtrar por categoría
+
+❌ NO es un sustituto del estudio activo
+✅ Es un COMPLEMENTO a las tarjetas manuales
+✅ Úsalo paralelo a: lectura, frases reales, contexto
+
+---
+
+Fecha creación: 2026-05-09
+Versión: 1.0
+Importable en: Anki (cualquier versión)

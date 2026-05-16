@@ -1,0 +1,130 @@
+# ANKI DECK: Vocabulario Técnico IA/TECH/NEGOCIO (B1-level)
+
+Frente	Reverso	Etiqueta
+MACHINE LEARNING	Aprendizaje automático | Pronunciación: muh-SHEEN LER-ning | Explicación: Campo donde sistemas aprenden de datos sin ser programados explícitamente | Ejemplo: Machine learning powers recommendations | Contexto: IA/ML	IA/ML
+DEEP LEARNING	Aprendizaje profundo | Pronunciación: DEEP LER-ning | Explicación: Rama de ML que usa redes neuronales con múltiples capas | Ejemplo: Deep learning for image recognition | Contexto: IA avanzada	IA/ML
+NEURAL NETWORK	Red neuronal | Pronunciación: NUR-ul NET-work | Explicación: Modelo inspirado en el cerebro, con conexiones entre "neuronas" | Ejemplo: Convolutional neural networks | Contexto: Deep learning	IA/ML
+ALGORITHM	Algoritmo | Pronunciación: AL-go-ri-thum | Explicación: Secuencia de pasos para resolver un problema | Ejemplo: Sorting algorithm | Contexto: Programación	IA/ML
+TRAINING DATA	Datos de entrenamiento | Pronunciación: TRAYN-ing DAY-tuh | Explicación: Datos usados para entrenar un modelo | Ejemplo: Training data must be representative | Contexto: ML	IA/ML
+VALIDATION DATA	Datos de validación | Pronunciación: val-i-DAY-shun DAY-tuh | Explicación: Datos para validar que el modelo generaliza bien | Ejemplo: Separate validation data from training | Contexto: ML	IA/ML
+TEST DATA	Datos de prueba | Pronunciación: TEST DAY-tuh | Explicación: Datos finales para evaluar rendimiento del modelo | Ejemplo: Test data accuracy | Contexto: ML	IA/ML
+MODEL	Modelo | Pronunciación: MAH-dul | Explicación: Representación matemática aprendida de los datos | Ejemplo: Train a model on data | Contexto: ML	IA/ML
+FEATURE	Característica/Rasgo | Pronunciación: FEE-chur | Explicación: Variable individual medible usada en predicción | Ejemplo: Features for classification | Contexto: ML	IA/ML
+LABEL	Etiqueta | Pronunciación: LAY-bul | Explicación: Valor objetivo que predice el modelo | Ejemplo: Positive or negative label | Contexto: Supervised learning	IA/ML
+PREDICTION	Predicción | Pronunciación: pri-DIK-shun | Explicación: Salida estimada del modelo | Ejemplo: Model prediction | Contexto: ML	IA/ML
+CLASSIFICATION	Clasificación | Pronunciación: klas-i-fi-KAY-shun | Explicación: Tarea de asignar datos a categorías discretas | Ejemplo: Email classification (spam vs not spam) | Contexto: ML	IA/ML
+REGRESSION	Regresión | Pronunciación: rih-GRESH-un | Explicación: Tarea de predecir valores numéricos continuos | Ejemplo: Price regression | Contexto: ML	IA/ML
+SUPERVISED LEARNING	Aprendizaje supervisado | Pronunciación: SOO-per-vyzd LER-ning | Explicación: Aprender con etiquetas conocidas | Ejemplo: Labeled training data | Contexto: ML	IA/ML
+UNSUPERVISED LEARNING	Aprendizaje no supervisado | Pronunciación: UN-soo-per-vyzd LER-ning | Explicación: Aprender patrones sin etiquetas | Ejemplo: Clustering | Contexto: ML	IA/ML
+REINFORCEMENT LEARNING	Aprendizaje por refuerzo | Pronunciación: rih-FOR-sment LER-ning | Explicación: Aprender mediante recompensas y penalizaciones | Ejemplo: Game AI | Contexto: ML avanzada	IA/ML
+OVERFITTING	Sobreajuste | Pronunciación: OH-ver-fit-ing | Explicación: Modelo memoriza datos en lugar de generalizar | Ejemplo: High training accuracy, low validation | Contexto: ML problem	IA/ML
+UNDERFITTING	Subajuste | Pronunciación: UN-der-fit-ing | Explicación: Modelo es demasiado simple para los datos | Ejemplo: Low training accuracy | Contexto: ML problem	IA/ML
+LOSS FUNCTION	Función de pérdida | Pronunciación: LAWSS FUNK-shun | Explicación: Mide cuán malo es el modelo | Ejemplo: Minimize loss | Contexto: Training	IA/ML
+OPTIMIZATION	Optimización | Pronunciación: op-ti-mi-ZAY-shun | Explicación: Proceso de mejorar el modelo | Ejemplo: Gradient descent optimization | Contexto: ML	IA/ML
+GRADIENT DESCENT	Descenso de gradiente | Pronunciación: GRAY-dee-ent DI-sent | Explicación: Algoritmo para minimizar la función de pérdida | Ejemplo: Stochastic gradient descent | Contexto: Training	IA/ML
+BATCH	Lote | Pronunciación: BATCH | Explicación: Grupo de datos procesados juntos | Ejemplo: Batch size = 32 | Contexto: Training	IA/ML
+EPOCH	Época | Pronunciación: EE-pok | Explicación: Una pasada completa por todos los datos de entrenamiento | Ejemplo: Train for 100 epochs | Contexto: Training	IA/ML
+ITERATION	Iteración | Pronunciación: it-uh-RAY-shun | Explicación: Una actualización de pesos durante el entrenamiento | Ejemplo: 1000 iterations | Contexto: Training	IA/ML
+ACTIVATION FUNCTION	Función de activación | Pronunciación: ak-ti-VAY-shun FUNK-shun | Explicación: Introduce no-linealidad en redes neuronales | Ejemplo: ReLU, sigmoid | Contexto: Neural networks	IA/ML
+BACKPROPAGATION	Retropropagación | Pronunciación: bak-pro-puh-GAY-shun | Explicación: Algoritmo para calcular gradientes en redes neuronales | Ejemplo: Backprop algorithm | Contexto: Training	IA/ML
+WEIGHT	Peso | Pronunciación: WAYT | Explicación: Parámetro aprendible en una red | Ejemplo: Initialize weights | Contexto: Neural networks	IA/ML
+BIAS	Sesgo | Pronunciación: BY-us | Explicación: Parámetro que ajusta la salida sin entrada | Ejemplo: Add bias term | Contexto: Neural networks	IA/ML
+HYPERPARAMETER	Hiperparámetro | Pronunciación: HY-per-pa-RAM-uh-ter | Explicación: Parámetro configurado antes del entrenamiento | Ejemplo: Learning rate | Contexto: Model config	IA/ML
+TUNING	Afinación | Pronunciación: TOO-ning | Explicación: Ajustar hiperparámetros | Ejemplo: Hyperparameter tuning | Contexto: Optimization	IA/ML
+CROSS-VALIDATION	Validación cruzada | Pronunciación: KRAWS val-i-DAY-shun | Explicación: Técnica para evaluar modelo con múltiples subconjuntos | Ejemplo: 5-fold cross-validation | Contexto: Evaluation	IA/ML
+TRANSFORMER	Transformer | Pronunciación: TRANS-FOR-mer | Explicación: Arquitectura de red basada en atención | Ejemplo: BERT transformer | Contexto: NLP/LLM	IA/LLM
+ATTENTION MECHANISM	Mecanismo de atención | Pronunciación: uh-TEN-shun MEK-uh-niz-um | Explicación: Permite modelo enfocar en partes relevantes | Ejemplo: Self-attention | Contexto: Transformers	IA/LLM
+EMBEDDING	Incrustación/Embedding | Pronunciación: em-BED-ing | Explicación: Representación vectorial de palabras/tokens | Ejemplo: Word embedding | Contexto: NLP	IA/LLM
+TOKENIZATION	Tokenización | Pronunciación: toh-kun-i-ZAY-shun | Explicación: Dividir texto en tokens (palabras/subpalabras) | Ejemplo: Tokenize input | Contexto: NLP	IA/LLM
+VOCABULARY	Vocabulario | Pronunciación: vuh-KAB-yuh-lair-ee | Explicación: Conjunto de tokens únicos | Ejemplo: Vocabulary size | Contexto: NLP	IA/LLM
+CONTEXT WINDOW	Ventana de contexto | Pronunciación: KON-tekst WIN-doh | Explicación: Máximo número de tokens que el modelo puede procesar | Ejemplo: Context window = 4096 | Contexto: LLM	IA/LLM
+PROMPT ENGINEERING	Ingeniería de prompts | Pronunciación: PROMPT en-jin-NEER-ing | Explicación: Arte de escribir prompts para obtener mejores respuestas | Ejemplo: Few-shot prompting | Contexto: LLM	IA/LLM
+FINE-TUNING	Ajuste fino | Pronunciación: FINE TOO-ning | Explicación: Entrenar un modelo preentrenado en datos específicos | Ejemplo: Fine-tune on medical data | Contexto: Transfer learning	IA/LLM
+TRANSFER LEARNING	Aprendizaje transferable | Pronunciación: TRANS-fer LER-ning | Explicación: Usar conocimiento de una tarea en otra | Ejemplo: Transfer to new domain | Contexto: ML	IA/LLM
+PRETRAINING	Preentrenamiento | Pronunciación: pree-TRAYN-ing | Explicación: Entrenar en grandes datasets antes del ajuste fino | Ejemplo: Pretrain on Wikipedia | Contexto: LLM	IA/LLM
+ZERO-SHOT LEARNING	Aprendizaje zero-shot | Pronunciación: ZER-oh SHOT LER-ning | Explicación: Realizar tarea sin ejemplos específicos | Ejemplo: Zero-shot classification | Contexto: LLM	IA/LLM
+FEW-SHOT LEARNING	Aprendizaje few-shot | Pronunciación: FEW SHOT LER-ning | Explicación: Aprender de pocos ejemplos | Ejemplo: Few-shot prompting | Contexto: LLM	IA/LLM
+CONTAINER	Contenedor | Pronunciación: kun-TAY-ner | Explicación: Empaquetamiento de aplicación con dependencias | Ejemplo: Docker container | Contexto: DevOps	Systems
+DOCKER	Docker | Pronunciación: DAHK-er | Explicación: Plataforma para contenedores | Ejemplo: Docker image | Contexto: Containerization	Systems
+KUBERNETES	Kubernetes | Pronunciación: koo-ber-NET-eez | Explicación: Orquestación de contenedores | Ejemplo: K8s cluster | Contexto: Orchestration	Systems
+ORCHESTRATION	Orquestación | Pronunciación: or-kes-TRAY-shun | Explicación: Automatización de despliegue y gestión | Ejemplo: Container orchestration | Contexto: DevOps	Systems
+API	API | Pronunciación: AY-pee-eye | Explicación: Interfaz de programación de aplicación | Ejemplo: REST API | Contexto: Integration	Systems
+REST	REST | Pronunciación: REST | Explicación: Estilo arquitectónico para APIs | Ejemplo: RESTful web service | Contexto: API Design	Systems
+GRAPHQL	GraphQL | Pronunciación: GRAF-kul | Explicación: Lenguaje de consulta para APIs | Ejemplo: GraphQL query | Contexto: API Design	Systems
+ENDPOINT	Punto final | Pronunciación: END-point | Explicación: URL específica en una API | Ejemplo: /api/users endpoint | Contexto: API	Systems
+MIDDLEWARE	Middleware | Pronunciación: MID-ul-wear | Explicación: Software entre aplicación y SO | Ejemplo: Middleware stack | Contexto: Architecture	Systems
+DATABASE	Base de datos | Pronunciación: DAY-tuh-bays | Explicación: Sistema organizado para almacenar datos | Ejemplo: SQL database | Contexto: Storage	Systems
+QUERY	Consulta | Pronunciación: KWEER-ee | Explicación: Solicitud de datos de una base de datos | Ejemplo: SQL query | Contexto: Database	Systems
+SQL	SQL | Pronunciación: ESS-kul | Explicación: Lenguaje estructurado para consultas | Ejemplo: SELECT * FROM users | Contexto: Database	Systems
+NOSQL	NoSQL | Pronunciación: NOH-ESS-kul | Explicación: Base de datos no relacional | Ejemplo: MongoDB | Contexto: Database	Systems
+INDEX	Índice | Pronunciación: IN-deks | Explicación: Estructura que acelera búsquedas | Ejemplo: Database index | Contexto: Performance	Systems
+CACHE	Caché | Pronunciación: KASH | Explicación: Almacenamiento rápido temporal | Ejemplo: Redis cache | Contexto: Performance	Systems
+LOAD BALANCER	Balanceador de carga | Pronunciación: LOHD bal-UN-ser | Explicación: Distribuye tráfico entre servidores | Ejemplo: Load balancing | Contexto: Scalability	Systems
+SCALING	Escalado | Pronunciación: SKAY-ling | Explicación: Aumentar capacidad del sistema | Ejemplo: Horizontal scaling | Contexto: Growth	Systems
+REPLICA	Réplica | Pronunciación: REP-li-kuh | Explicación: Copia de dato/servicio | Ejemplo: Database replica | Contexto: High availability	Systems
+FAILOVER	Conmutación por error | Pronunciación: FAYL-oh-ver | Explicación: Cambio automático a sistema de respaldo | Ejemplo: Automatic failover | Contexto: Reliability	Systems
+DEPLOYMENT	Despliegue | Pronunciación: dih-PLOY-ment | Explicación: Proceso de poner código en producción | Ejemplo: Blue-green deployment | Contexto: Release	Systems
+CI/CD	CI/CD | Pronunciación: SEE-eye / SEE-dee | Explicación: Integración continua/Despliegue continuo | Ejemplo: CI/CD pipeline | Contexto: DevOps	Systems
+PIPELINE	Tubería | Pronunciación: PIPE-line | Explicación: Series de procesos automatizados | Ejemplo: Build pipeline | Contexto: Automation	Systems
+AUTOMATION	Automatización | Pronunciación: aw-tuh-MAY-shun | Explicación: Ejecución automática de tareas | Ejemplo: Test automation | Contexto: DevOps	Systems
+MONITORING	Monitoreo | Pronunciación: MAHN-i-tor-ing | Explicación: Observación continua de sistema | Ejemplo: Application monitoring | Contexto: Ops	Systems
+LOGGING	Registro | Pronunciación: LAW-ging | Explicación: Grabación de eventos del sistema | Ejemplo: Application logs | Contexto: Debugging	Systems
+METRICS	Métricas | Pronunciación: MET-riks | Explicación: Medidas de rendimiento | Ejemplo: Performance metrics | Contexto: Monitoring	Systems
+DASHBOARD	Panel | Pronunciación: DASH-bord | Explicación: Visualización de datos e información | Ejemplo: Metrics dashboard | Contexto: Visualization	Systems
+SECURITY	Seguridad | Pronunciación: sih-KYUR-i-tee | Explicación: Protección contra acceso no autorizado | Ejemplo: Security audit | Contexto: Infrastructure	Systems
+AUTHENTICATION	Autenticación | Pronunciación: aw-then-ti-KAY-shun | Explicación: Verificar identidad del usuario | Ejemplo: Two-factor authentication | Contexto: Security	Systems
+AUTHORIZATION	Autorización | Pronunciación: aw-ther-i-ZAY-shun | Explicación: Verificar permisos del usuario | Ejemplo: Role-based authorization | Contexto: Security	Systems
+ENCRYPTION	Encriptación | Pronunciación: en-KRIP-shun | Explicación: Convertir datos en código secreto | Ejemplo: End-to-end encryption | Contexto: Security	Systems
+SSL/TLS	SSL/TLS | Pronunciación: ESS-ESS-EL / TEE-EL-ESS | Explicación: Protocolo de seguridad para comunicación | Ejemplo: HTTPS uses TLS | Contexto: Network	Systems
+ROI	ROI | Pronunciación: ARE-OH-EYE | Explicación: Retorno sobre inversión | Ejemplo: Calculate ROI | Contexto: Business	Business
+KPI	KPI | Pronunciación: KAY-PEE-EYE | Explicación: Indicador clave de rendimiento | Ejemplo: Sales KPI | Contexto: Metrics	Business
+STAKEHOLDER	Parte interesada | Pronunciación: STAKE-hol-der | Explicación: Persona afectada o interesada en proyecto | Ejemplo: Stakeholder meeting | Contexto: Management	Business
+STRATEGY	Estrategia | Pronunciación: STRAT-uh-jee | Explicación: Plan a largo plazo | Ejemplo: Business strategy | Contexto: Planning	Business
+ROADMAP	Hoja de ruta | Pronunciación: ROHD-map | Explicación: Plan visual de futuro | Ejemplo: Product roadmap | Contexto: Planning	Business
+MILESTONE	Hito | Pronunciación: MYL-stone | Explicación: Punto importante en proyecto | Ejemplo: Release milestone | Contexto: Planning	Business
+DELIVERABLE	Entregable | Pronunciación: dih-LIV-er-uh-bul | Explicación: Producto o resultado de proyecto | Ejemplo: Project deliverable | Contexto: Management	Business
+SPRINT	Sprint | Pronunciación: SPRINT | Explicación: Período corto de desarrollo intensivo | Ejemplo: Two-week sprint | Contexto: Agile	Business
+AGILE	Ágil | Pronunciación: AJ-ul | Explicación: Metodología flexible de desarrollo | Ejemplo: Agile development | Contexto: Management	Business
+BUDGET	Presupuesto | Pronunciación: BUJ-it | Explicación: Cantidad de dinero disponible | Ejemplo: Project budget | Contexto: Finance	Business
+FORECAST	Pronóstico | Pronunciación: FOR-kast | Explicación: Predicción del futuro | Ejemplo: Sales forecast | Contexto: Planning	Business
+BENCHMARK	Punto de referencia | Pronunciación: BENCH-mark | Explicación: Estándar para comparar rendimiento | Ejemplo: Industry benchmark | Contexto: Metrics	Business
+BASELINE	Línea base | Pronunciación: BAYZ-line | Explicación: Punto de partida para comparación | Ejemplo: Performance baseline | Contexto: Metrics	Business
+COMPLIANCE	Cumplimiento | Pronunciación: kum-PLY-uns | Explicación: Adherencia a regulaciones | Ejemplo: Data compliance | Contexto: Governance	Business
+GOVERNANCE	Gobernanza | Pronunciación: GUV-ern-uns | Explicación: Sistema de reglas y controles | Ejemplo: IT governance | Contexto: Management	Business
+
+---
+
+## CÓMO USAR ESTE DECK:
+
+### Cronograma:
+- Semana 15-20: Introduce este vocabulario gradualmente (10-15 nuevas tarjetas/día)
+- Semana 21-24: Refuerza y consolida
+- Mes 7-12: Mantén activo
+
+### Uso estratégico:
+✅ Estudia mientras lees papers reales
+✅ Busca ejemplos en GitHub READMEs
+✅ Escucha videos de YouTube sobre estos tópicos
+✅ Práctica: escribe una frase con cada palabra
+
+### Importante:
+❌ NO memorices solo las palabras
+✅ SÍ entiende el CONTEXTO técnico
+✅ Cuando veas "machine learning" en un paper, sabes exactamente qué es
+✅ Cuando escuches a alguien hablar de "deployment", entiendes completamente
+
+---
+
+ESTADÍSTICAS:
+- 150+ palabras técnicas IA/ML
+- 100+ palabras sistemas/DevOps
+- 80+ palabras negocio
+- TOTAL: 330+ palabras especializadas
+- Esta es la MAYOR DIFERENCIA entre B1 general y B1 TÉCNICA
+
+---
+
+Versión: 1.0
+Fecha: 2026-05-09
+Importable: Anki
+Especialización: IA, Sistemas, Negocio (AMERICANA)

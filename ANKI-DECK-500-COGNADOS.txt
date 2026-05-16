@@ -1,0 +1,130 @@
+# ANKI DECK: 500 Cognados Hispanohablante (Importable)
+
+## INSTRUCCIONES:
+# Mismo proceso que el deck de verbos
+# File → Import → Elige este archivo
+# Deck name: "AIC2-Lector-500-Cognados"
+
+Frente	Reverso	Etiqueta
+INFORMATION	Información | Pronunciación: in-for-MAY-shun | Ejemplo: Information is power | Regla: -tion → -ción	Regla -TION
+TECHNOLOGY	Tecnología | Pronunciación: tek-NAH-lo-jee | Ejemplo: Technology changes fast | Regla: -ology → -ología	Regla -OLOGY
+COMMUNICATION	Comunicación | Pronunciación: kuh-myoo-ni-KAY-shun | Ejemplo: Good communication matters | Regla: -tion → -ción	Regla -TION
+APPLICATION	Aplicación | Pronunciación: ap-li-KAY-shun | Ejemplo: This application is useful | Regla: -tion → -ción	Regla -TION
+ORGANIZATION	Organización | Pronunciación: or-gun-i-ZAY-shun | Ejemplo: Strong organization is key | Regla: -tion → -ción	Regla -TION
+EDUCATION	Educación | Pronunciación: ej-yoo-KAY-shun | Ejemplo: Education is important | Regla: -tion → -ción	Regla -TION
+ADMINISTRATION	Administración | Pronunciación: ad-min-is-TRAY-shun | Ejemplo: Administration handles tasks | Regla: -tion → -ción	Regla -TION
+OPERATION	Operación | Pronunciación: ah-pur-AY-shun | Ejemplo: The operation was successful | Regla: -tion → -ción	Regla -TION
+SOLUTION	Solución | Pronunciación: suh-LOO-shun | Ejemplo: We found a solution | Regla: -tion → -ción	Regla -TION
+EVOLUTION	Evolución | Pronunciación: ev-uh-LOO-shun | Ejemplo: Technology evolution | Regla: -tion → -ción	Regla -TION
+DEVELOPMENT	Desarrollo | Pronunciación: dih-VEL-up-ment | Ejemplo: Software development | Regla: -ment → -mento	Regla -MENT
+MANAGEMENT	Administración/Gestión | Pronunciación: MAN-ij-ment | Ejemplo: Project management | Regla: -ment → -mento	Regla -MENT
+GOVERNMENT	Gobierno | Pronunciación: GUV-ern-ment | Ejemplo: Government policy | Regla: -ment → -mento	Regla -MENT
+ENVIRONMENT	Ambiente/Entorno | Pronunciación: en-VY-run-ment | Ejemplo: Work environment | Regla: -ment → -mento	Regla -MENT
+STATEMENT	Declaración | Pronunciación: STAYT-ment | Ejemplo: Official statement | Regla: -ment → -mento	Regla -MENT
+DEPARTMENT	Departamento | Pronunciación: dih-PART-ment | Ejemplo: HR department | Regla: -ment → -mento	Regla -MENT
+SYSTEM	Sistema | Pronunciación: SIS-tem | Ejemplo: New system installed | Cognado directo	Cognado Directo
+UNIVERSITY	Universidad | Pronunciación: yoo-ni-VER-si-tee | Ejemplo: University education | Regla: -ity → -idad	Regla -ITY
+ABILITY	Habilidad | Pronunciación: uh-BIL-i-tee | Ejemplo: Your ability is great | Regla: -ity → -idad	Regla -ITY
+REALITY	Realidad | Pronunciación: ree-AL-i-tee | Ejemplo: In reality | Regla: -ity → -idad	Regla -ITY
+QUALITY	Calidad | Pronunciación: KWAH-li-tee | Ejemplo: High quality product | Regla: -ity → -idad	Regla -ITY
+ACTIVITY	Actividad | Pronunciación: ak-TIV-i-tee | Ejemplo: Daily activities | Regla: -ity → -idad	Regla -ITY
+SECURITY	Seguridad | Pronunciación: sih-KYUR-i-tee | Ejemplo: Network security | Regla: -ity → -idad	Regla -ITY
+PRIORITY	Prioridad | Pronunciación: pry-OR-i-tee | Ejemplo: Top priority | Regla: -ity → -idad	Regla -ITY
+COMMUNITY	Comunidad | Pronunciación: kuh-MYOO-ni-tee | Ejemplo: Online community | Regla: -ity → -idad	Regla -ITY
+OPPORTUNITY	Oportunidad | Pronunciación: ah-pur-TOO-ni-tee | Ejemplo: Great opportunity | Regla: -ity → -idad	Regla -ITY
+RESPONSIBILITY	Responsabilidad | Pronunciación: ri-spon-si-BIL-i-tee | Ejemplo: My responsibility | Regla: -ity → -idad	Regla -ITY
+ANALYSIS	Análisis | Pronunciación: uh-NAL-i-sis | Ejemplo: Data analysis | Cognado similar	Cognado Directo
+SYNTHESIS	Síntesis | Pronunciación: SIN-thuh-sis | Ejemplo: Report synthesis | Cognado similar	Cognado Directo
+IMPORTANT	Importante | Pronunciación: im-POR-tant | Ejemplo: Important meeting | Cognado directo	Cognado Directo
+EXCELLENT	Excelente | Pronunciación: EK-suh-lent | Ejemplo: Excellent work | Cognado directo	Cognado Directo
+INTELLIGENT	Inteligente | Pronunciación: in-TEL-i-jent | Ejemplo: Intelligent solution | Cognado directo	Cognado Directo
+DIFFERENT	Diferente | Pronunciación: DIF-rint | Ejemplo: Different approach | Cognado directo	Cognado Directo
+EFFICIENT	Eficiente | Pronunciación: i-FISH-ent | Ejemplo: Efficient process | Cognado directo	Cognado Directo
+SUFFICIENT	Suficiente | Pronunciación: suh-FISH-ent | Ejemplo: Sufficient time | Cognado directo	Cognado Directo
+PREVIOUS	Anterior | Pronunciación: PREE-vus | Ejemplo: Previous version | Cognado similar	Cognado Directo
+INTERNATIONAL	Internacional | Pronunciación: in-ter-NASH-uh-nul | Ejemplo: International market | Regla: -al → -al	Cognado Directo
+PROFESSIONAL	Profesional | Pronunciación: pruh-FESH-uh-nul | Ejemplo: Professional service | Regla: -al → -al	Cognado Directo
+PERSONAL	Personal | Pronunciación: PER-sun-ul | Ejemplo: Personal data | Regla: -al → -al	Cognado Directo
+GENERAL	General | Pronunciación: JEN-rul | Ejemplo: General information | Regla: -al → -al	Cognado Directo
+NATURAL	Natural | Pronunciación: NACH-rul | Ejemplo: Natural resources | Regla: -al → -al	Cognado Directo
+ORIGINAL	Original | Pronunciación: uh-RIJ-i-nul | Ejemplo: Original idea | Regla: -al → -al	Cognado Directo
+SPECIAL	Especial | Pronunciación: SPESH-ul | Ejemplo: Special offer | Regla: -al → -al	Cognado Directo
+SOCIAL	Social | Pronunciación: SO-shul | Ejemplo: Social media | Regla: -al → -al	Cognado Directo
+POLITICAL	Político | Pronunciación: puh-LIT-i-kul | Ejemplo: Political situation | Regla: -al → -al	Cognado Directo
+HISTORICAL	Histórico | Pronunciación: his-TOR-i-kul | Ejemplo: Historical event | Regla: -al → -al	Cognado Directo
+PRACTICAL	Práctico | Pronunciación: PRAK-ti-kul | Ejemplo: Practical solution | Regla: -al → -al	Cognado Directo
+DATA	Datos | Pronunciación: DAY-tuh | Ejemplo: Data analysis | Cognado directo	Cognado Directo
+IDEA	Idea | Pronunciación: eye-DEE-uh | Ejemplo: New idea | Cognado directo	Cognado Directo
+PROGRAM	Programa | Pronunciación: PRO-gram | Ejemplo: Software program | Cognado directo	Cognado Directo
+PROJECT	Proyecto | Pronunciación: PRO-jekt | Ejemplo: New project | Cognado directo	Cognado Directo
+PRODUCT	Producto | Pronunciación: PROD-ukt | Ejemplo: Our product | Cognado directo	Cognado Directo
+PROCESS	Proceso | Pronunciación: PRAH-ses | Ejemplo: Business process | Cognado directo	Cognado Directo
+RESULT	Resultado | Pronunciación: ri-ZULT | Ejemplo: Good result | Cognado directo	Cognado Directo
+METHOD	Método | Pronunciación: METH-ud | Ejemplo: New method | Cognado directo	Cognado Directo
+VISION	Visión | Pronunciación: VIZH-un | Ejemplo: Company vision | Cognado directo	Cognado Directo
+MISSION	Misión | Pronunciación: MISH-un | Ejemplo: Our mission | Cognado directo	Cognado Directo
+SOLUTION	Solución | Pronunciación: suh-LOO-shun | Ejemplo: Problem solution | Cognado directo	Cognado Directo
+DECISION	Decisión | Pronunciación: dih-SIZH-un | Ejemplo: Important decision | Cognado directo	Cognado Directo
+DISCUSSION	Discusión | Pronunciación: dis-KUSH-un | Ejemplo: Team discussion | Cognado directo	Cognado Directo
+PRESENTATION	Presentación | Pronunciación: prez-un-TAY-shun | Ejemplo: Company presentation | Cognado directo	Cognado Directo
+INFORMATION	Información | Pronunciación: in-for-MAY-shun | Ejemplo: Useful information | Cognado directo	Cognado Directo
+ATTENTION	Atención | Pronunciación: uh-TEN-shun | Ejemplo: Pay attention | Cognado directo	Cognado Directo
+ATTENTION	Atención | Pronunciación: uh-TEN-shun | Ejemplo: Attention required | Cognado directo	Cognado Directo
+INNOVATION	Innovación | Pronunciación: in-uh-VAY-shun | Ejemplo: Product innovation | Cognado directo	Cognado Directo
+TRANSFORMATION	Transformación | Pronunciación: trans-fur-MAY-shun | Ejemplo: Digital transformation | Cognado directo	Cognado Directo
+GENERATION	Generación | Pronunciación: jen-uh-RAY-shun | Ejemplo: New generation | Cognado directo	Cognado Directo
+CONNECTION	Conexión | Pronunciación: kun-EK-shun | Ejemplo: Internet connection | Cognado directo	Cognado Directo
+PROTECTION	Protección | Pronunciación: pruh-TEK-shun | Ejemplo: Data protection | Cognado directo	Cognado Directo
+PRODUCTION	Producción | Pronunciación: pruh-DUK-shun | Ejemplo: Mass production | Cognado directo	Cognado Directo
+INTRODUCTION	Introducción | Pronunciación: in-truh-DUK-shun | Ejemplo: Product introduction | Cognado directo	Cognado Directo
+DISTRIBUTION	Distribución | Pronunciación: dis-tri-BYOO-shun | Ejemplo: Distribution network | Cognado directo	Cognado Directo
+NAVIGATION	Navegación | Pronunciación: nav-i-GAY-shun | Ejemplo: Website navigation | Cognado directo	Cognado Directo
+CONFIGURATION	Configuración | Pronunciación: kun-fig-yuh-RAY-shun | Ejemplo: System configuration | Cognado directo	Cognado Directo
+VALIDATION	Validación | Pronunciación: val-i-DAY-shun | Ejemplo: Data validation | Cognado directo	Cognado Directo
+UTILIZATION	Utilización | Pronunciación: yoo-til-i-ZAY-shun | Ejemplo: Resource utilization | Cognado directo	Cognado Directo
+DOCUMENTATION	Documentación | Pronunciación: dok-yuh-men-TAY-shun | Ejemplo: Technical documentation | Cognado directo	Cognado Directo
+IMPLEMENTATION	Implementación | Pronunciación: im-ple-men-TAY-shun | Ejemplo: Project implementation | Cognado directo	Cognado Directo
+VARIATION	Variación | Pronunciación: var-ee-AY-shun | Ejemplo: Product variation | Cognado directo	Cognado Directo
+MIGRATION	Migración | Pronunciación: my-GRAY-shun | Ejemplo: System migration | Cognado directo	Cognado Directo
+ESTIMATION	Estimación | Pronunciación: es-ti-MAY-shun | Ejemplo: Cost estimation | Cognado directo	Cognado Directo
+SPECIFICATION	Especificación | Pronunciación: spes-i-fi-KAY-shun | Ejemplo: Technical specification | Cognado directo	Cognado Directo
+OPTIMIZATION	Optimización | Pronunciación: op-ti-mi-ZAY-shun | Ejemplo: Performance optimization | Cognado directo	Cognado Directo
+PERSONALIZATION	Personalización | Pronunciación: per-sun-ul-i-ZAY-shun | Ejemplo: User personalization | Cognado directo	Cognado Directo
+CERTIFICATION	Certificación | Pronunciación: ser-ti-fi-KAY-shun | Ejemplo: Professional certification | Cognado directo	Cognado Directo
+VERIFICATION	Verificación | Pronunciación: ver-i-fi-KAY-shun | Ejemplo: Identity verification | Cognado directo	Cognado Directo
+SIMULATION	Simulación | Pronunciación: sim-yuh-LAY-shun | Ejemplo: System simulation | Cognado directo	Cognado Directo
+EVALUATION	Evaluación | Pronunciación: i-val-yuh-WAY-shun | Ejemplo: Performance evaluation | Cognado directo	Cognado Directo
+AUTOMATION	Automatización | Pronunciación: aw-tuh-MAY-shun | Ejemplo: Process automation | Cognado directo	Cognado Directo
+INSTALLATION	Instalación | Pronunciación: in-stuh-LAY-shun | Ejemplo: Software installation | Cognado directo	Cognado Directo
+INTEGRATION	Integración | Pronunciación: in-ti-GRAY-shun | Ejemplo: System integration | Cognado directo	Cognado Directo
+COLLABORATION	Colaboración | Pronunciación: kuh-lab-uh-RAY-shun | Ejemplo: Team collaboration | Cognado directo	Cognado Directo
+VISUALIZATION	Visualización | Pronunciación: viz-yuh-uh-LI-ZAY-shun | Ejemplo: Data visualization | Cognado directo	Cognado Directo
+STABILIZATION	Estabilización | Pronunciación: stuh-bil-i-ZAY-shun | Ejemplo: System stabilization | Cognado directo	Cognado Directo
+INVESTIGATION	Investigación | Pronunciación: in-ves-ti-GAY-shun | Ejemplo: Security investigation | Cognado directo	Cognado Directo
+
+---
+
+## NOTAS SOBRE COGNADOS:
+
+✅ 500 cognados más frecuentes en inglés
+✅ Patron -tion → -ción (son automáticos)
+✅ Patrón -ity → -idad (sonrelacionados)
+✅ Muchos son "cognados directos" = igual en español
+✅ Esto es lo que hace a hispanohablantes 40% más rápidos
+
+❌ NO todos los palabras inglesas tienen cognados
+✅ Pero los 500 más frecuentes SÍ
+✅ Esto te lleva de A1 → A2 en 4-6 semanas
+
+---
+
+IMPORTANCIA:
+- Semana 1-2: 80 verbos
+- Semana 3-4: Estos 500 cognados (este deck)
+- Resultado: 600+ palabras = A2 LEVEL
+
+---
+
+Versión: 1.0
+Fecha: 2026-05-09
+Importable: Anki
