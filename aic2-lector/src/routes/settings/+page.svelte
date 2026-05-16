@@ -55,8 +55,10 @@
         grammarRules: await db.grammarRules.toArray(),
         userStats: await db.userStats.toArray(),
         dailyProgress: await db.dailyProgress.toArray(),
+        gradeSkills: await db.gradeSkills.toArray(),
+        userGrade: await db.userGrade.toArray(),
         exportedAt: new Date().toISOString(),
-        version: '1.0',
+        version: '2.0',
       };
 
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
@@ -92,6 +94,8 @@
       if (data.grammarRules) await db.grammarRules.bulkPut(data.grammarRules);
       if (data.userStats) await db.userStats.bulkPut(data.userStats);
       if (data.dailyProgress) await db.dailyProgress.bulkPut(data.dailyProgress);
+      if (data.gradeSkills) await db.gradeSkills.bulkPut(data.gradeSkills);
+      if (data.userGrade) await db.userGrade.bulkPut(data.userGrade);
 
       toasts.success('Data imported successfully');
     } catch (error) {
@@ -113,6 +117,8 @@
       await db.grammarRules.clear();
       await db.dailyProgress.clear();
       await db.userStats.clear();
+      await db.gradeSkills.clear();
+      await db.userGrade.clear();
       
       toasts.success('Database reset. Reload the page to reseed.');
     } catch (error) {

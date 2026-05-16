@@ -1,15 +1,16 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { getStats, getTodayProgress, getVocabularyBreakdown } from '$lib/db/stats';
+  import { getStats, getTodayProgress, getVocabularyBreakdown, getEstimatedDaysToLevels } from '$lib/db/stats';
   import { getWordsForToday } from '$lib/db/srs';
-  import { Flame, BookOpen, Clock, Target, TrendingUp, Zap } from 'lucide-svelte';
-  import type { UserStats, DailyProgress } from '$lib/db';
+  import { Flame, BookOpen, Clock, Target, TrendingUp, Zap, Calendar, Rocket } from 'lucide-svelte';
+  import type { UserStats, DailyProgress, CefrLevel } from '$lib/db';
 
   let stats: UserStats | undefined = $state();
   let todayProgress: DailyProgress | null = $state(null);
   let vocabBreakdown = $state({ mastered: 0, learning: 0, weak: 0, total: 0 });
   let studyQueue = $state({ newWords: [] as any[], dueWords: [] as any[], totalDue: 0 });
   let showOnboarding = $state(false);
+  let estimatedDays = $state({ currentLevel: 'A1' as CefrLevel, levels: [] as any[] });
 
   onMount(async () => {
     stats = await getStats();
@@ -17,6 +18,7 @@
     vocabBreakdown = await getVocabularyBreakdown();
     studyQueue = await getWordsForToday(5, 20);
     showOnboarding = vocabBreakdown.total === 0;
+    estimatedDays = await getEstimatedDaysToLevels();
   });
 
   const cefrColors: Record<string, string> = {
@@ -27,6 +29,15 @@
     C1: 'bg-orange-100 text-orange-700',
     C2: 'bg-red-100 text-red-700',
   };
+
+  function formatDays(days: number | null): string {
+    if (days === null) return '—';
+    if (days === 0) return '¡Hoy!';
+    if (days < 7) return `${days} días`;
+    if (days < 30) return `${Math.round(days / 7)} semanas`;
+    if (days < 365) return `${Math.round(days / 30)} meses`;
+    return `${(days / 365).toFixed(1)} años`;
+  }
 
   const phaseNames = [
     'Foundation (A0-A2)',
@@ -135,6 +146,38 @@
           <p class="text-sm text-gray-500">Avg WPM</p>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="card bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 border-indigo-100">
+    <div class="flex items-center gap-3 mb-4">
+      <div class="p-2 bg-indigo-600 rounded-lg">
+        <Rocket class="w-5 h-5 text-white" />
+      </div>
+      <div>
+        <h2 class="text-lg font-semibold text-gray-900">Tu Camino a C2</h2>
+        <p class="text-sm text-gray-500">Estimación basada en tu ritmo actual</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+      {#each estimatedDays.levels as lvl}
+        <div class="text-center p-3 rounded-lg {lvl.isReached ? 'bg-green-100 border border-green-200' : 'bg-white border border-gray-100'}">
+          <span class="inline-block px-2 py-0.5 rounded-full text-xs font-bold {lvl.isReached ? 'bg-green-500 text-white' : lvl.color}">
+            {lvl.level}
+          </span>
+          <p class="text-xs text-gray-500 mt-1">{lvl.label}</p>
+          {#if lvl.isReached}
+            <p class="text-sm font-bold text-green-600 mt-1">✓ Logrado</p>
+          {:else if lvl.daysEstimated !== null}
+            <div class="flex items-center justify-center gap-1 mt-1">
+              <Calendar class="w-3 h-3 text-indigo-500" />
+              <span class="text-sm font-bold text-indigo-600">{formatDays(lvl.daysEstimated)}</span>
+            </div>
+          {:else}
+            <p class="text-xs text-gray-400 mt-1">Estudia para estimar</p>
+          {/if}
+        </div>
+      {/each}
     </div>
   </div>
 

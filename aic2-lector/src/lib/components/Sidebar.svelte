@@ -6,6 +6,7 @@
     { href: '/', label: 'Dashboard', icon: Home },
     { href: '/help', label: 'Instructions', icon: HelpCircle },
     { href: '/study', label: 'Study', icon: GraduationCap },
+    { href: '/grades', label: 'Grados', icon: GraduationCap },
     { href: '/vocabulary', label: 'Vocabulary', icon: BookOpen },
     { href: '/morphology', label: 'Morphology', icon: Sparkles },
     { href: '/grammar', label: 'Grammar', icon: BookMarked },

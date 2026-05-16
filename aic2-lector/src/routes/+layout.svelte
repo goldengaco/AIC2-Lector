@@ -2,7 +2,8 @@
   import '../app.css';
   import { onMount } from 'svelte';
   import { initializeDatabase } from '$lib/db';
-  import { seedDatabase, seedMorphemes, seedGrammarRules, seedAWL, seedMoreTexts, seedTechnicalTexts, initializeStats } from '$lib/data/seeds';
+  import { seedDatabase, seedMorphemes, seedGrammarRules, seedAWL, seedMoreTexts, seedTechnicalTexts, seedGradeSkills, initializeStats } from '$lib/data/seeds';
+  import { initializeUserGrade } from '$lib/db/grades';
   import { isLoading } from '$lib/stores/app';
   import Sidebar from '$lib/components/Sidebar.svelte';
   import Toast from '$lib/components/Toast.svelte';
@@ -17,7 +18,7 @@
     await initializeStats();
     await seedDatabase();
     
-    const remaining = [seedMorphemes(), seedGrammarRules(), seedAWL(), seedMoreTexts(), seedTechnicalTexts()];
+    const remaining = [seedMorphemes(), seedGrammarRules(), seedAWL(), seedMoreTexts(), seedTechnicalTexts(), seedGradeSkills(), initializeUserGrade()];
     await Promise.allSettled(remaining);
     
     $isLoading = false;

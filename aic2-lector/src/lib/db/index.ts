@@ -1,10 +1,31 @@
 import Dexie, { type EntityTable } from 'dexie';
 
+export type USGradeLevel = 'K' | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 'college';
+export type SkillCategory = 'reading' | 'vocabulary' | 'comprehension' | 'analysis';
 export type CefrLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 export type VocabLayer = 'frequency' | 'awl' | 'technical-ia' | 'mined';
 export type CognateType = 'cognate' | 'partial-cognate' | 'false-cognate' | 'no-cognate';
 export type MorphemeType = 'root' | 'prefix' | 'suffix';
-export type TextGenre = 'narrative' | 'journalistic' | 'technical-ia' | 'instructive' | 'academic' | 'literary';
+export type TextGenre = 'narrative' | 'journalistic' | 'technical-ia' | 'instructive' | 'academic' | 'literary' | 'business';
+
+export interface GradeSkill {
+  id: string;
+  grade: USGradeLevel;
+  category: SkillCategory;
+  name: string;
+  description: string;
+  milestones: string[];
+  cefr_equiv: CefrLevel;
+  completed: boolean;
+  completed_at?: Date;
+}
+
+export interface UserGrade {
+  id: string;
+  current_grade: USGradeLevel;
+  target_grade: USGradeLevel;
+  updated_at: Date;
+}
 
 export interface Word {
   id: string;
@@ -137,6 +158,8 @@ class AIC2Database extends Dexie {
   userStats!: EntityTable<UserStats, 'id'>;
   dailyProgress!: EntityTable<DailyProgress, 'id'>;
   settings!: EntityTable<Settings, 'id'>;
+  gradeSkills!: EntityTable<GradeSkill, 'id'>;
+  userGrade!: EntityTable<UserGrade, 'id'>;
 
   constructor() {
     super('AIC2LectorV2');
@@ -151,6 +174,20 @@ class AIC2Database extends Dexie {
       userStats: 'id',
       dailyProgress: 'id, date',
       settings: 'id, key',
+    });
+
+    this.version(2).stores({
+      words: 'id, lemma, cefr_level, layer, frequency_rank, next_review, confidence, review_count',
+      texts: 'id, cefr_level, genre, created_at',
+      readingSessions: 'id, text_id, started_at, finished_at',
+      minedSentences: 'id, source_type, created_at',
+      morphemes: 'id, type, cefr_level',
+      grammarRules: 'id, cefr_level, category',
+      userStats: 'id',
+      dailyProgress: 'id, date',
+      settings: 'id, key',
+      gradeSkills: 'id, grade, category, cefr_equiv, completed',
+      userGrade: 'id, current_grade',
     });
   }
 }
