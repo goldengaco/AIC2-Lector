@@ -1,0 +1,10 @@
+{
+  "name": "aic2-lector-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix aic2-lector run dev",
+    "build": "npm --prefix aic2-lector run build",
+    "check": "npm --prefix aic2-lector run check",
+    "preview": "npm --prefix aic2-lector run preview"
+  }
+}

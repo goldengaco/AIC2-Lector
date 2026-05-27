@@ -8,7 +8,7 @@
   let texts = $state<Text[]>([]);
   let currentTest = $state<{
     text: Text | null;
-    questions: { question: string; options: string[]; correct: number }[];
+    questions: { question: string; options: string[]; correct: number; explanation?: string }[];
     currentQuestion: number;
     answers: number[];
     showResults: boolean;

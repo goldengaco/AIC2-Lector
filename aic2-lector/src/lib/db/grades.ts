@@ -1,5 +1,7 @@
 import { db, type USGradeLevel, type SkillCategory, type CefrLevel, type UserStats, type GradeSkill } from './index';
 
+export type { GradeSkill, SkillCategory, USGradeLevel } from './index';
+
 export const GRADE_ORDER: USGradeLevel[] = ['K', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 'college'];
 
 export const GRADE_LABELS: Record<string, string> = {

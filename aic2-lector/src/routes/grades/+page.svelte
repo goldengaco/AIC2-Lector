@@ -125,6 +125,10 @@
     await loadSkillsForCategory(cat);
   }
 
+  function switchTab(tab: Tab) {
+    activeTab = tab;
+  }
+
   function gradeDisplay(grade: USGradeLevel): string {
     if (typeof grade === 'number') return String(grade);
     if (grade === 'K') return 'K';

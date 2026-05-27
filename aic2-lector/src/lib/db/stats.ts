@@ -156,19 +156,21 @@ const CEFR_COLORS: Record<CefrLevel, string> = {
   C2: 'bg-red-100 text-red-700',
 };
 
+type LevelEstimate = {
+  level: CefrLevel;
+  label: string;
+  color: string;
+  wordsNeeded: number;
+  hoursNeeded: number;
+  daysByWords: number | null;
+  daysByHours: number | null;
+  daysEstimated: number | null;
+  isReached: boolean;
+};
+
 export async function getEstimatedDaysToLevels(): Promise<{
   currentLevel: CefrLevel;
-  levels: {
-    level: CefrLevel;
-    label: string;
-    color: string;
-    wordsNeeded: number;
-    hoursNeeded: number;
-    daysByWords: number | null;
-    daysByHours: number | null;
-    daysEstimated: number | null;
-    isReached: boolean;
-  }[];
+  levels: LevelEstimate[];
 }> {
   const stats = await getStats();
   if (!stats) {
@@ -186,17 +188,7 @@ export async function getEstimatedDaysToLevels(): Promise<{
   const avgWordsPerDay = activeDays > 0 ? weekProgress.reduce((s, p) => s + p.words_learned, 0) / activeDays : 0;
   const avgMinutesPerDay = activeDays > 0 ? weekProgress.reduce((s, p) => s + p.reading_time_min, 0) / activeDays : 0;
 
-  const levels: typeof CEFR_WORD_TARGETS extends Record<infer K, any> ? K extends CefrLevel ? {
-    level: CefrLevel;
-    label: string;
-    color: string;
-    wordsNeeded: number;
-    hoursNeeded: number;
-    daysByWords: number | null;
-    daysByHours: number | null;
-    daysEstimated: number | null;
-    isReached: boolean;
-  } : never : never[] = [];
+  const levels: LevelEstimate[] = [];
 
   const levelOrder: CefrLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
