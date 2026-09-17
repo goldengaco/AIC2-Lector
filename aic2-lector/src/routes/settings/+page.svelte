@@ -46,10 +46,11 @@
   async function exportData() {
     isExporting = true;
     try {
-      const data = {
+      const data = await db.transaction('r', db.tables, async () => ({
         words: await db.words.toArray(),
         texts: await db.texts.toArray(),
         readingSessions: await db.readingSessions.toArray(),
+        learningEvents: await db.learningEvents.toArray(),
         minedSentences: await db.minedSentences.toArray(),
         morphemes: await db.morphemes.toArray(),
         grammarRules: await db.grammarRules.toArray(),
@@ -58,8 +59,8 @@
         gradeSkills: await db.gradeSkills.toArray(),
         userGrade: await db.userGrade.toArray(),
         exportedAt: new Date().toISOString(),
-        version: '2.0',
-      };
+        version: '3.0',
+      }));
 
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
       const url = URL.createObjectURL(blob);
@@ -85,10 +86,15 @@
     try {
       const text = await file.text();
       const data = JSON.parse(text);
+      if (data.learningEvents !== undefined && !Array.isArray(data.learningEvents)) {
+        throw new Error('Invalid learning events');
+      }
 
+      await db.transaction('rw', db.tables, async () => {
       if (data.words) await db.words.bulkPut(data.words);
       if (data.texts) await db.texts.bulkPut(data.texts);
       if (data.readingSessions) await db.readingSessions.bulkPut(data.readingSessions);
+      if (data.learningEvents) await db.learningEvents.bulkPut(data.learningEvents);
       if (data.minedSentences) await db.minedSentences.bulkPut(data.minedSentences);
       if (data.morphemes) await db.morphemes.bulkPut(data.morphemes);
       if (data.grammarRules) await db.grammarRules.bulkPut(data.grammarRules);
@@ -96,6 +102,7 @@
       if (data.dailyProgress) await db.dailyProgress.bulkPut(data.dailyProgress);
       if (data.gradeSkills) await db.gradeSkills.bulkPut(data.gradeSkills);
       if (data.userGrade) await db.userGrade.bulkPut(data.userGrade);
+      });
 
       toasts.success('Data imported successfully');
     } catch (error) {
@@ -109,9 +116,11 @@
     if (!confirm('Are you sure you want to reset all data? This cannot be undone.')) return;
     
     try {
+      await db.transaction('rw', db.tables, async () => {
       await db.words.clear();
       await db.texts.clear();
       await db.readingSessions.clear();
+      await db.learningEvents.clear();
       await db.minedSentences.clear();
       await db.morphemes.clear();
       await db.grammarRules.clear();
@@ -119,6 +128,7 @@
       await db.userStats.clear();
       await db.gradeSkills.clear();
       await db.userGrade.clear();
+      });
       
       toasts.success('Database reset. Reload the page to reseed.');
     } catch (error) {

@@ -65,6 +65,9 @@ export interface Text {
   unique_words: number;
   avg_sentence_length: number;
   source?: string;
+  parallel_group?: string;
+  parallel_form?: 'A' | 'B' | 'C';
+  retest_only?: boolean;
   is_authentic: boolean;
   key_vocabulary: string[];
   created_at: Date;
@@ -80,6 +83,48 @@ export interface ReadingSession {
   wpm: number;
   comprehension_score: number;
   subvocalization_estimated: number;
+  question_count?: number;
+  assessment_format?: 'open-text' | 'closed-text';
+  correct_count?: number;
+  gloss_click_count?: number;
+  wpm_validated?: boolean;
+  first_attempt?: boolean;
+  assessment_role?: 'formative' | 'transfer' | 'delayed-retest';
+  assessment_parent_id?: string;
+  assessment_window_days?: 7 | 30;
+  assessment_evidence?: Array<{
+    kind: string;
+    correct: number;
+    total: number;
+    percentage: number;
+  }>;
+  calibration_evidence?: Array<{
+    question_id: string;
+    is_correct: boolean;
+    confidence: 0 | 1 | 2 | null;
+  }>;
+  pause_count?: number;
+  paused_duration_sec?: number;
+}
+
+export type LearningEventAction = 'session-completed' | 'item-answered';
+export type LearningEventObjectType = 'reading-session' | 'reading-question';
+
+/** Minimal local-first event ledger; it never stores the text body or raw answer. */
+export interface LearningEvent {
+  id: string;
+  schema_version: 1;
+  action: LearningEventAction;
+  object_id: string;
+  object_type: LearningEventObjectType;
+  occurred_at: Date;
+  session_id: string;
+  text_id?: string;
+  assessment_role?: 'formative' | 'transfer' | 'delayed-retest';
+  assessment_window_days?: 7 | 30;
+  question_kind?: string;
+  is_correct?: boolean;
+  confidence?: 0 | 1 | 2 | null;
 }
 
 export interface MinedSentence {
@@ -127,6 +172,9 @@ export interface UserStats {
   longest_streak: number;
   last_session_date?: Date;
   avg_wpm: number;
+  avg_comprehension?: number;
+  validated_wpm_sessions?: number;
+  comprehension_sessions?: number;
   cefr_estimated: CefrLevel;
   updated_at: Date;
 }
@@ -140,6 +188,8 @@ export interface DailyProgress {
   sessions_count: number;
   wpm_avg: number;
   comprehension_avg: number;
+  validated_wpm_sessions?: number;
+  comprehension_sessions?: number;
 }
 
 export interface Settings {
@@ -152,6 +202,7 @@ class AIC2Database extends Dexie {
   words!: EntityTable<Word, 'id'>;
   texts!: EntityTable<Text, 'id'>;
   readingSessions!: EntityTable<ReadingSession, 'id'>;
+  learningEvents!: EntityTable<LearningEvent, 'id'>;
   minedSentences!: EntityTable<MinedSentence, 'id'>;
   morphemes!: EntityTable<Morpheme, 'id'>;
   grammarRules!: EntityTable<GrammarRule, 'id'>;
@@ -180,6 +231,21 @@ class AIC2Database extends Dexie {
       words: 'id, lemma, cefr_level, layer, frequency_rank, next_review, confidence, review_count',
       texts: 'id, cefr_level, genre, created_at',
       readingSessions: 'id, text_id, started_at, finished_at',
+      minedSentences: 'id, source_type, created_at',
+      morphemes: 'id, type, cefr_level',
+      grammarRules: 'id, cefr_level, category',
+      userStats: 'id',
+      dailyProgress: 'id, date',
+      settings: 'id, key',
+      gradeSkills: 'id, grade, category, cefr_equiv, completed',
+      userGrade: 'id, current_grade',
+    });
+
+    this.version(3).stores({
+      words: 'id, lemma, cefr_level, layer, frequency_rank, next_review, confidence, review_count',
+      texts: 'id, cefr_level, genre, created_at',
+      readingSessions: 'id, text_id, started_at, finished_at, assessment_role, assessment_parent_id',
+      learningEvents: 'id, action, object_type, occurred_at, session_id, assessment_role',
       minedSentences: 'id, source_type, created_at',
       morphemes: 'id, type, cefr_level',
       grammarRules: 'id, cefr_level, category',

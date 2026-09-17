@@ -1,7 +1,7 @@
 # AIC2-Lector
 
-> Sistema de aprendizaje de lectura en inglés especializado para profesionales de IA/técnicos.
-> Nivel objetivo: A0/A1 → C2 lectura técnica en 18-30 meses.
+> Sistema de aprendizaje de lectura en inglés general, con aplicaciones técnicas.
+> Objetivo: A0/A1 → C2 exclusivamente en lectura. El tiempo necesario todavía no está validado para este sistema.
 > Proyecto basado en la arquitectura de 13 fases documentada.
 
 ## Características Completas

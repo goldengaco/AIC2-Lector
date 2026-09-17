@@ -152,14 +152,14 @@
   <div class="flex items-center justify-between flex-wrap gap-3">
     <div>
       <h1 class="text-2xl font-bold text-gray-900">US School Grades</h1>
-      <p class="text-gray-500 mt-1">Tu progreso escolar — de Kindergarten a College</p>
+      <p class="text-gray-500 mt-1">Mapa curricular de lectura; las equivalencias CEFR son orientativas, no certificación</p>
     </div>
     <div class="flex items-center gap-2">
       <span class="px-3 py-1.5 rounded-full text-sm font-semibold bg-primary-100 text-primary-700">
         Grado: {GRADE_LABELS[String(currentGrade)]}
       </span>
       <span class="px-3 py-1.5 rounded-full text-sm font-semibold bg-green-100 text-green-700">
-        CEFR: {GRADE_CEFR[String(currentGrade)]}
+        Referencia: {GRADE_CEFR[String(currentGrade)]}
       </span>
     </div>
   </div>
@@ -342,7 +342,7 @@
         <div class="card">
           <h3 class="text-sm font-medium text-gray-500 mb-2">Tu Grado Actual</h3>
           <p class="text-3xl font-bold text-primary-600">{GRADE_LABELS[String(currentGrade)]}</p>
-          <p class="text-sm text-gray-500 mt-1">CEFR: {GRADE_CEFR[String(currentGrade)]}</p>
+          <p class="text-sm text-gray-500 mt-1">Referencia CEFR orientativa: {GRADE_CEFR[String(currentGrade)]}</p>
         </div>
 
         <div class="card">
@@ -377,8 +377,8 @@
           <Rocket class="w-5 h-5 text-white" />
         </div>
         <div>
-          <h2 class="text-lg font-semibold text-gray-900">Tu Camino a C2</h2>
-          <p class="text-sm text-gray-500">Estimación basada en tu ritmo actual</p>
+          <h2 class="text-lg font-semibold text-gray-900">Hitos hacia la lectura C2</h2>
+          <p class="text-sm text-gray-500">Proyección de práctica; no estima ni certifica nivel CEFR</p>
         </div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
@@ -389,14 +389,14 @@
             </span>
             <p class="text-xs text-gray-500 mt-1">{lvl.label}</p>
             {#if lvl.isReached}
-              <p class="text-sm font-bold text-green-600 mt-1">✓ Logrado</p>
+              <p class="text-sm font-bold text-green-600 mt-1">✓ Hito interno</p>
             {:else if lvl.daysEstimated !== null}
               <div class="flex items-center justify-center gap-1 mt-1">
                 <Calendar class="w-3 h-3 text-indigo-500" />
                 <span class="text-sm font-bold text-indigo-600">{formatDays(lvl.daysEstimated)}</span>
               </div>
             {:else}
-              <p class="text-xs text-gray-400 mt-1">Estudia para estimar</p>
+              <p class="text-xs text-gray-400 mt-1">Registra más práctica</p>
             {/if}
           </div>
         {/each}

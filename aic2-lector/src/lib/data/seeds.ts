@@ -1,4 +1,6 @@
 import { db, type Word, type CefrLevel, type CognateType, type VocabLayer, type Text, type USGradeLevel, type SkillCategory } from '../db';
+import { TECHNICAL_READING_TEXTS } from './technicalTexts';
+import { FOUNDATION_TEXTS } from './foundation';
 
 function makeWord(
   lemma: string,
@@ -470,11 +472,11 @@ export async function seedAWL(): Promise<void> {
 }
 
 export async function seedMoreTexts(): Promise<void> {
-  // Already included in SAMPLE_TEXTS
+  await db.texts.bulkPut(FOUNDATION_TEXTS);
 }
 
 export async function seedTechnicalTexts(): Promise<void> {
-  // Already included in SAMPLE_TEXTS
+  await db.texts.bulkPut(TECHNICAL_READING_TEXTS);
 }
 
 const GRADE_SKILLS_DATA = [

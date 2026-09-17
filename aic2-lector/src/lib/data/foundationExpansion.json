@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "foundation-a1-13",
+    "level": "A1",
+    "title": "Course registration form",
+    "objective_es": "Comprender un formulario de inscripción: datos pedidos, horarios de grupos y normas del primer día.",
+    "grammar_es": "Imperativo para instrucciones, realmente presente: “Write your first name”, “Choose your group”, “Sign the form”. Presente simple con be para horarios: “morning classes are on Mondays…”, “The office is open from eight to five”.",
+    "body": "Welcome to the City Learning Center! Please complete this registration form for the free English course. Write your first name and your family name in capital letters. Write your home address, your telephone number, and your email address. Choose your group: morning classes are on Mondays and Wednesdays at nine, evening classes are on Tuesdays and Thursdays at seven. Sign the form and bring your ID card on the first day. The office is open from eight to five. Thank you!",
+    "glossary": [
+      {
+        "en": "complete",
+        "es": "rellenar / completar"
+      },
+      {
+        "en": "family name",
+        "es": "apellido"
+      },
+      {
+        "en": "address",
+        "es": "dirección / domicilio"
+      },
+      {
+        "en": "sign",
+        "es": "firmar"
+      },
+      {
+        "en": "bring",
+        "es": "traer"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "What is the form for?",
+        "support_es": "¿Para qué es el formulario? Busca la finalidad en la primera frase.",
+        "options": [
+          "A free computer course",
+          "The free English course",
+          "A free driving licence"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Es el curso de inglés porque el texto dice “for the free English course”. Las otras opciones son otros cursos que no aparecen."
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "When are the morning classes?",
+        "support_es": "¿Cuándo son las clases de la mañana? Compara mañana y tarde y fíjate en días y hora.",
+        "options": [
+          "On Mondays and Wednesdays at nine",
+          "On Tuesdays and Thursdays at seven",
+          "Every day at eight"
+        ],
+        "correct_index": 0,
+        "explanation_es": "La mañana es lunes y miércoles a las nueve porque dice “morning classes are on Mondays and Wednesdays at nine”. La opción de martes y jueves es evening; todos los días a las ocho es la oficina."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What must you bring on the first day?",
+        "support_es": "¿Qué debes llevar el primer día? Busca qué objeto se pide para ese día.",
+        "options": [
+          "Your car keys",
+          "A letter from work",
+          "Your ID card"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Debes llevar la tarjeta de identidad porque dice “bring your ID card on the first day”. Llaves del coche y carta del trabajo no aparecen."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "When is the office open?",
+        "support_es": "¿Cuándo está abierta la oficina? Localiza el horario de oficina.",
+        "options": [
+          "Only at night",
+          "From eight to five",
+          "On Saturdays and Sundays"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Abre de ocho a cinco porque dice “The office is open from eight to five”. Solo de noche y fines de semana no aparecen."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-14",
+    "level": "A1",
+    "title": "Hotel check-in form",
+    "objective_es": "Comprender un formulario de hotel: datos, desayuno, llave y salida.",
+    "grammar_es": "Imperativo presente en el texto: “Write your full name”, “leave your key at reception”. Presente simple descriptivo: “Breakfast is free…”, “Check-out is at twelve noon”.",
+    "body": "Welcome to the Palm Hotel! Please complete this check-in form when you arrive. Write your full name, your passport number, and your home country. Write the dates of your stay and your room number. Breakfast is free every morning from seven to ten in the dining room on the first floor. Please leave your key at reception when you go out. Check-out is at twelve noon. If you need help, call reception at extension two hundred. Have a pleasant stay with us!",
+    "glossary": [
+      {
+        "en": "arrive",
+        "es": "llegar"
+      },
+      {
+        "en": "stay",
+        "es": "estancia / estadía"
+      },
+      {
+        "en": "free",
+        "es": "gratis"
+      },
+      {
+        "en": "leave",
+        "es": "dejar"
+      },
+      {
+        "en": "pleasant",
+        "es": "agradable"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "What must you write on the form?",
+        "support_es": "¿Qué debes escribir en el formulario? Busca la lista de datos personales solicitados.",
+        "options": [
+          "Your bank password and salary",
+          "Your telephone number, your email address, and your job",
+          "Your full name, your passport number, and your home country"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Piden esos tres datos porque dice “your full name, your passport number, and your home country”. La contraseña bancaria y el teléfono con email y trabajo no se piden."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "When and where is breakfast?",
+        "support_es": "¿Cuándo y dónde es el desayuno? Busca horario y lugar del desayuno.",
+        "options": [
+          "Only on Sundays in your room",
+          "Every morning from seven to ten in the dining room on the first floor",
+          "At twelve noon at reception"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Es cada mañana de siete a diez en el comedor porque dice “Breakfast is free every morning from seven to ten in the dining room on the first floor”. Las otras combinan horas y lugares incorrectos."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "What must you do with your key?",
+        "support_es": "¿Qué debes hacer con la llave? Busca la norma sobre la llave al salir.",
+        "options": [
+          "Leave your key at reception when you go out",
+          "Take the key home after check-out",
+          "Give the key to another guest"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Hay que dejarla en recepción al salir porque dice “leave your key at reception when you go out”. Llevarla a casa o darla a otro huésped contradice la norma."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What time is check-out?",
+        "support_es": "¿A qué hora es la salida del hotel? Localiza la hora de salida.",
+        "options": [
+          "At seven in the morning",
+          "At ten at night",
+          "At twelve noon"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Es a las doce del mediodía porque dice “Check-out is at twelve noon”. Las otras horas no aparecen."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-15",
+    "level": "A1",
+    "title": "Yogurt label",
+    "objective_es": "Comprender una etiqueta alimentaria: ingredientes, conservación y contacto.",
+    "grammar_es": "Imperativos realmente presentes: “Keep refrigerated…”, “Do not freeze”, “Recycle…”. Presente simple: “It contains milk”, “No added sugar”.",
+    "body": "Read this label on a low-fat natural yogurt. Net weight: one hundred and twenty-five grams. Ingredients: pasteurized milk, live cultures, and vitamin D. No added sugar. Energy: ninety calories per pot. It contains milk. Keep refrigerated between two and four degrees. Do not freeze. Best before: see the date on the lid. Once open, eat within two days. The producer is FreshFarm Foods, Green Street twelve, Leeds. For questions, call customer service from Monday to Friday. Recycle the clean pot after use.",
+    "glossary": [
+      {
+        "en": "label",
+        "es": "etiqueta"
+      },
+      {
+        "en": "ingredients",
+        "es": "ingredientes"
+      },
+      {
+        "en": "contains",
+        "es": "contiene"
+      },
+      {
+        "en": "lid",
+        "es": "tapa"
+      },
+      {
+        "en": "recycle",
+        "es": "reciclar"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "inference",
+        "prompt_en": "What does the label say about added sugar?",
+        "support_es": "¿Qué dice la etiqueta sobre el azúcar añadido?",
+        "options": [
+          "No added sugar",
+          "A lot of sugar",
+          "Two spoons of sugar"
+        ],
+        "correct_index": 0,
+        "explanation_es": "No lleva azúcar añadido porque dice “No added sugar”. Mucha azúcar y dos cucharadas contradicen la etiqueta."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "How must you store the yogurt?",
+        "support_es": "¿Cómo debes conservar el yogur? Busca la instrucción de temperatura.",
+        "options": [
+          "Keep it in a hot car",
+          "Freeze it for one month",
+          "Keep refrigerated between two and four degrees"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Debe mantenerse refrigerado porque dice “Keep refrigerated between two and four degrees”. Coche caliente y congelar un mes contradicen “Do not freeze”."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "What must you do once open?",
+        "support_es": "¿Qué debes hacer una vez abierto? Busca el plazo tras abrir.",
+        "options": [
+          "Eat after ten days",
+          "Eat within two days",
+          "Keep it open for a week"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Hay que comerlo en dos días porque dice “Once open, eat within two days”. Diez días y una semana superan el plazo."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "When can you call customer service?",
+        "support_es": "¿Cuándo puedes llamar al servicio de atención al cliente? Busca los días indicados.",
+        "options": [
+          "From Monday to Friday",
+          "Only on Sundays",
+          "Every night at midnight"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Puedes llamar de lunes a viernes porque dice “call customer service from Monday to Friday”. Domingo y cada noche no aparecen."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-16",
+    "level": "A1",
+    "title": "Shirt washing label",
+    "objective_es": "Comprender una etiqueta de ropa: material, lavado y cambios.",
+    "grammar_es": "Imperativos de cuidado presentes: “Wash at thirty degrees…”, “Do not use bleach”, “Iron…”. Presente simple: “Material:…”, “The price is…”.",
+    "body": "Read this clothing label before you wash your new blue cotton shirt. Material: one hundred percent cotton. Made in Portugal. Wash at thirty degrees with similar colors. Do not use bleach. Do not tumble dry. Iron at medium temperature. Do not dry clean. The price is nineteen euros and ninety-five cents. Size medium is available in blue, white, and grey. Keep the receipt for thirty days. You can change the shirt in any CityShop store with the receipt and the original bag. Ask staff for help.",
+    "glossary": [
+      {
+        "en": "wash",
+        "es": "lavar"
+      },
+      {
+        "en": "bleach",
+        "es": "lejía"
+      },
+      {
+        "en": "iron",
+        "es": "planchar"
+      },
+      {
+        "en": "receipt",
+        "es": "ticket / recibo"
+      },
+      {
+        "en": "staff",
+        "es": "personal / empleados"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "What is the shirt made of?",
+        "support_es": "¿De qué está hecha la camisa? Busca el material.",
+        "options": [
+          "One hundred percent wool",
+          "Plastic and paper",
+          "One hundred percent cotton"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Es cien por cien algodón porque dice “one hundred percent cotton”. Lana y plástico no aparecen."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "How must you wash it?",
+        "support_es": "¿Cómo debes lavarla? Busca la instrucción de lavado.",
+        "options": [
+          "Wash at thirty degrees with similar colors",
+          "Wash in very hot water with white clothes",
+          "Wash with bleach every time"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Se lava a treinta grados con colores similares porque dice “Wash at thirty degrees with similar colors”. Agua muy caliente y lejía contradicen la etiqueta."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "What is the price?",
+        "support_es": "¿Cuál es el precio? Localiza el precio y lee la cifra con atención.",
+        "options": [
+          "Ninety euros",
+          "Nineteen euros and ninety-five cents",
+          "Nine cents"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Cuesta diecinueve con noventa y cinco porque dice “The price is nineteen euros and ninety-five cents”. No confundas nineteen con ninety; nine cents recorta la cifra."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "What do you need to change the shirt?",
+        "support_es": "¿Qué necesitas para cambiar la camisa? Busca los requisitos del cambio.",
+        "options": [
+          "The receipt and the original bag",
+          "Only the receipt without the bag",
+          "Only the bag without the receipt"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Piden ticket y bolsa porque dice “with the receipt and the original bag”. Solo el ticket sin la bolsa y solo la bolsa sin el ticket están incompletos."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-17",
+    "level": "A1",
+    "title": "Building notice: lift out of service",
+    "objective_es": "Comprender un aviso de vecinos: avería, normas y emergencia.",
+    "grammar_es": "Imperativos de norma presentes: “Please use the stairs…”, “Do not leave bicycles…”, “Use your key card…”. Presente simple: “The lift is out of service…”, “The main door is locked…”. Condicional: “If the alarm sounds…”.",
+    "body": "Important notice for all residents of Block B. The lift is out of service on Saturday from nine in the morning to three in the afternoon for maintenance. Please use the stairs on the left side of the building. Do not leave bicycles or boxes in the hall. The main door is locked after ten at night. Use your key card to enter. If the alarm sounds, leave the building and wait in front of the supermarket. For urgent problems, call Mr. Lopez at extension three one four. Thank you for your cooperation.",
+    "glossary": [
+      {
+        "en": "notice",
+        "es": "aviso"
+      },
+      {
+        "en": "residents",
+        "es": "vecinos / residentes"
+      },
+      {
+        "en": "stairs",
+        "es": "escaleras"
+      },
+      {
+        "en": "locked",
+        "es": "cerrado con llave"
+      },
+      {
+        "en": "wait",
+        "es": "esperar"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "sequence",
+        "prompt_en": "When is the lift out of service?",
+        "support_es": "¿Cuándo está fuera de servicio el ascensor? Busca día y horario.",
+        "options": [
+          "Every night after ten",
+          "On Saturday from nine in the morning to three in the afternoon",
+          "On Mondays all day"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Es el sábado de nueve a tres porque dice “The lift is out of service on Saturday from nine in the morning to three in the afternoon”. Las otras combinan la hora nocturna de la puerta y un lunes inventado."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "What must residents use?",
+        "support_es": "¿Qué deben usar los vecinos? Busca la alternativa al ascensor.",
+        "options": [
+          "The lift with heavy boxes",
+          "The supermarket door",
+          "The stairs on the left side of the building"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Deben usar las escaleras porque dice “use the stairs on the left side of the building”. Usar el ascensor averiado o la puerta del supermercado no tiene sentido."
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "What must you do after ten at night?",
+        "support_es": "¿Qué debes hacer después de las diez de la noche? Busca la norma de entrada nocturna.",
+        "options": [
+          "Use your key card to enter",
+          "Leave the main door open",
+          "Call the supermarket"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Debes usar tu tarjeta de noche porque dice “The main door is locked after ten at night. Use your key card to enter.” La puerta no está abierta y el supermercado es solo el punto de espera de la alarma."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "What must you do if the alarm sounds?",
+        "support_es": "¿Qué debes hacer si suena la alarma? Busca la instrucción de emergencia.",
+        "options": [
+          "Stay in the lift",
+          "Leave the building and wait in front of the supermarket",
+          "Go to Block A to sleep"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Hay que salir y esperar frente al supermercado porque dice “leave the building and wait in front of the supermarket”. Quedarse en el ascensor es peligroso y el Bloque A no aparece."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-18",
+    "level": "A1",
+    "title": "Office notice: meeting room",
+    "objective_es": "Comprender un aviso de oficina: cambio de sala y normas.",
+    "grammar_es": "Causa con for presente: “is closed on Friday for painting”. Movimiento: “moves to room two zero one…”. Imperativos: “bring your laptop…”, “Do not eat…”, “return chairs… turn off…”.",
+    "body": "Notice to all office staff. The meeting room on the second floor is closed on Friday for painting. The weekly team meeting moves to room two zero one at ten o'clock. Please bring your laptop and your ID badge. Do not eat or drink near the computers. The new printer is next to the window. Ask Anna at reception for the code. After the meeting, return chairs to their place and turn off the lights. Emails from the manager explain the new schedule. Thank you for your help and punctuality.",
+    "glossary": [
+      {
+        "en": "staff",
+        "es": "personal / plantilla"
+      },
+      {
+        "en": "weekly",
+        "es": "semanal"
+      },
+      {
+        "en": "bring",
+        "es": "traer"
+      },
+      {
+        "en": "next to",
+        "es": "al lado de"
+      },
+      {
+        "en": "turn off",
+        "es": "apagar"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "causal",
+        "prompt_en": "Why is the meeting room closed on Friday?",
+        "support_es": "¿Por qué está cerrada la sala el viernes? Busca la causa del cierre.",
+        "options": [
+          "For painting",
+          "For a party",
+          "For holidays"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Es por pintura porque dice “is closed on Friday for painting”. Fiesta y vacaciones no aparecen."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "Where is the weekly meeting now?",
+        "support_es": "¿Dónde es ahora la reunión semanal? Busca la nueva sala y hora.",
+        "options": [
+          "In the dining room at noon",
+          "In room two zero one at ten o'clock",
+          "At home online"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Se traslada a esa sala a las diez porque dice “moves to room two zero one at ten o'clock”. Comedor y casa no aparecen."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What must staff bring?",
+        "support_es": "¿Qué debe llevar el personal? Busca qué objetos se piden llevar.",
+        "options": [
+          "Food and drinks",
+          "A new printer",
+          "Your laptop and your ID badge"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Piden portátil e identificación porque dice “bring your laptop and your ID badge”. Comida y bebida están prohibidas y la impresora solo está junto a la ventana."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "What must staff do after the meeting?",
+        "support_es": "¿Qué debe hacer el personal después de la reunión? Busca las acciones posteriores.",
+        "options": [
+          "Return chairs to their place and turn off the lights",
+          "Leave chairs in the hall",
+          "Take the printer home"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Deben colocar sillas y apagar luces porque dice “return chairs to their place and turn off the lights”. Dejar sillas o llevarse la impresora contradice el aviso."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-19",
+    "level": "A1",
+    "title": "Metro line closed",
+    "objective_es": "Comprender un aviso de transporte: corte, bus sustituto y billetes.",
+    "grammar_es": "Presente simple presente: “Line Three is closed…”, “a day ticket costs…”. Imperativos: “Use the free replacement bus…”, “Validate your ticket…”, “Keep your bag…”. Frecuencia: “every fifteen minutes”.",
+    "body": "Attention, passengers. Line Three is closed this Sunday for works. Use the free replacement bus from Central Station. Buses leave every fifteen minutes from stop A in front of the station. For regular services, a single ticket costs one euro fifty, and a day ticket costs four euros. Validate your ticket before you travel. Keep your bag with you and do not block the doors. For information, call zero nine hundred one two three four five, or visit the information office from eight to eight. We apologize for the inconvenience.",
+    "glossary": [
+      {
+        "en": "closed",
+        "es": "cerrado/a"
+      },
+      {
+        "en": "replacement bus",
+        "es": "autobús sustituto"
+      },
+      {
+        "en": "leave",
+        "es": "salir / partir"
+      },
+      {
+        "en": "validate",
+        "es": "validar"
+      },
+      {
+        "en": "keep with you",
+        "es": "llevar consigo"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "What is closed this Sunday?",
+        "support_es": "¿Qué está cerrado este domingo? Busca el sujeto del cierre.",
+        "options": [
+          "Central Station",
+          "Line Three",
+          "Stop A"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Es la Línea Tres porque dice “Line Three is closed this Sunday”. La estación y la parada A son puntos del bus sustituto."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "How often do the replacement buses leave?",
+        "support_es": "¿Cada cuánto salen los autobuses sustitutos? Busca la frecuencia.",
+        "options": [
+          "Every fifteen minutes",
+          "Once a day",
+          "Every hour at night"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Salen cada quince minutos porque dice “Buses leave every fifteen minutes from stop A”. Una vez al día y cada hora de noche no aparecen."
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "How much is a day ticket?",
+        "support_es": "¿Cuánto cuesta el billete de día? Distingue el sencillo del billete de día.",
+        "options": [
+          "One euro fifty",
+          "Fifteen euros",
+          "Four euros"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Cuesta cuatro euros porque dice “a day ticket costs four euros”. Uno cincuenta es el sencillo; quince euros confunde fifteen con fifty."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "What must you do before you travel?",
+        "support_es": "¿Qué debes hacer antes de viajar? Busca la obligación previa.",
+        "options": [
+          "Block the doors",
+          "Validate your ticket before you travel",
+          "Leave your bag alone"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Debes validar el billete porque dice “Validate your ticket before you travel”. Bloquear puertas y dejar el bolso contradicen las normas."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-20",
+    "level": "A1",
+    "title": "Easy vegetable soup",
+    "objective_es": "Comprender una receta sencilla: ingredientes, pasos y conservación.",
+    "grammar_es": "Imperativos de receta presentes: “wash and cut…”, “cook…”, “Add…”, “Mix… serve…”. Secuenciadores: “First,…”, “Then,…”. Cantidades: “three large carrots…”, “for four people”.",
+    "body": "This easy vegetable soup is for four people and takes thirty minutes. You need three large carrots, two potatoes, one onion, one liter of water, two spoons of olive oil, and a little salt. First, wash and cut the vegetables into small pieces. Then, cook the onion in oil for five minutes. Add the carrots, the potatoes, water, and salt. Cook for twenty minutes. Mix the soup and serve hot with bread. You can keep it in the fridge for two days. Enjoy this healthy homemade meal with your family!",
+    "glossary": [
+      {
+        "en": "need",
+        "es": "necesitar"
+      },
+      {
+        "en": "spoon",
+        "es": "cuchara"
+      },
+      {
+        "en": "cut",
+        "es": "cortar"
+      },
+      {
+        "en": "cook",
+        "es": "cocinar"
+      },
+      {
+        "en": "serve hot",
+        "es": "servir caliente"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "How many people is the soup for?",
+        "support_es": "¿Para cuántas personas es la sopa? Busca el número de personas.",
+        "options": [
+          "For two people",
+          "For ten people",
+          "For four people"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Es para cuatro porque dice “is for four people”. Dos y diez no aparecen."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What vegetables do you need?",
+        "support_es": "¿Qué verduras necesitas? Busca la lista de verduras.",
+        "options": [
+          "Only bread and salt",
+          "Three large carrots, two potatoes, one onion",
+          "Fish and eggs"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Necesitas esas verduras porque dice “three large carrots, two potatoes, one onion”. Pan y pescado no son verduras de la receta."
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "How long do you cook after you add the carrots, potatoes, water and salt?",
+        "support_es": "¿Cuánto cueces tras añadir zanahorias, patatas, agua y sal? Compara los dos tiempos en minutos.",
+        "options": [
+          "Cook for twenty minutes",
+          "Cook for five minutes",
+          "Cook for two days"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Son veinte minutos tras añadir todo porque dice “Add the carrots, the potatoes, water, and salt. Cook for twenty minutes.” Cinco minutos es solo la cebolla y dos días es la nevera."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "According to this recipe, how long can you keep the soup in the fridge?",
+        "support_es": "¿Cuánto tiempo puedes guardarla en la nevera? Busca la duración en frío.",
+        "options": [
+          "For thirty minutes",
+          "For four weeks",
+          "For two days"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Dura dos días porque dice “keep it in the fridge for two days”. Treinta minutos es la preparación y cuatro semanas exagera el plazo."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-21",
+    "level": "A1",
+    "title": "Supermarket special offers",
+    "objective_es": "Comprender ofertas de supermercado: precios, límites y horario.",
+    "grammar_es": "Presente simple para ofertas presente: “Two kilos… for three euros”, “Coffee is…”, “The shop opens… closes…”. Imperativo: “Buy two packs… get one free”. Límite: “maximum two packets…”.",
+    "body": "Special offers at FreshMarket this week, from Monday to Sunday. Two kilos of apples for three euros, and one kilo of chicken for five euros fifty. Buy two packs of rice and get one free. Coffee is two euros ninety-nine per packet, maximum two packets per family. The shop opens at nine in the morning and closes at nine at night. Pay by card or cash at any till. Keep your receipt to change products within seven days. Ask our friendly staff for help with heavy bags or prices.",
+    "glossary": [
+      {
+        "en": "offer",
+        "es": "oferta"
+      },
+      {
+        "en": "kilo",
+        "es": "kilo"
+      },
+      {
+        "en": "free",
+        "es": "gratis"
+      },
+      {
+        "en": "till",
+        "es": "caja (de pagar)"
+      },
+      {
+        "en": "receipt",
+        "es": "ticket / recibo"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "cohesion",
+        "prompt_en": "How much are two kilos of apples?",
+        "support_es": "¿Cuánto cuestan dos kilos de manzanas? No lo confundas con otros productos.",
+        "options": [
+          "Three euros",
+          "Five euros fifty",
+          "Two euros ninety-nine"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Cuestan tres euros porque dice “Two kilos of apples for three euros”. Cinco cincuenta es el pollo y dos noventa y nueve el café."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What is the rice offer?",
+        "support_es": "¿Cuál es la oferta del arroz? Busca la condición de compra.",
+        "options": [
+          "Rice is free every day",
+          "Buy one chicken, get rice free",
+          "Buy two packs of rice and get one free"
+        ],
+        "correct_index": 2,
+        "explanation_es": "La oferta es compra dos y uno gratis porque dice “Buy two packs of rice and get one free”. Arroz gratis siempre y pollo con arroz no aparecen."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "How many packets of coffee can you buy per family?",
+        "support_es": "¿Cuántos paquetes de café puedes comprar por familia? Busca el límite.",
+        "options": [
+          "Ten packets per person",
+          "Maximum two packets per family",
+          "Only one kilo"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Hay límite de dos por familia porque dice “maximum two packets per family”. Diez paquetes y un kilo contradicen el límite."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "When is the shop open?",
+        "support_es": "¿Cuándo está abierta la tienda? Busca horario de apertura y cierre.",
+        "options": [
+          "From nine in the morning to nine at night",
+          "Only on Mondays",
+          "From Sunday to Monday only"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Abre de nueve a nueve porque dice “opens at nine in the morning and closes at nine at night”. Solo lunes invierte el rango Monday to Sunday."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-22",
+    "level": "A1",
+    "title": "Lost and found",
+    "objective_es": "Comprender un aviso de objetos perdidos: descripciones y recogida.",
+    "grammar_es": "Posesivos realmente presentes: “his English notebook”, “her name”, “their blue scarf”, “our old camera”, “its grey case”, “yours”, “your library card”. Imperativos: “Bring… describe…”.",
+    "body": "Lost and Found Office at Riverside Library. These things are from last week. A red backpack with his English notebook and his keys; a small black umbrella with her name, Elena Ruiz, on the handle; two children's gloves and their blue scarf; and our old camera in its grey case. Is one of these objects yours? Bring your library card and describe your object at the desk on the ground floor. The office is open Mondays, Wednesdays, and Fridays from four to seven. Unclaimed objects go to charity after one month.",
+    "glossary": [
+      {
+        "en": "his",
+        "es": "su (de él)"
+      },
+      {
+        "en": "her",
+        "es": "su (de ella)"
+      },
+      {
+        "en": "their",
+        "es": "su (de ellos/as)"
+      },
+      {
+        "en": "yours",
+        "es": "tuyo/a / suyo (el tuyo)"
+      },
+      {
+        "en": "handle",
+        "es": "mango / asa"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "cohesion",
+        "prompt_en": "What is in the red backpack?",
+        "support_es": "¿Qué hay en la mochila roja? Fíjate a quién se refiere el posesivo.",
+        "options": [
+          "Her umbrella and scarf",
+          "His English notebook and his keys",
+          "Our camera"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Contiene su cuaderno y llaves porque dice “A red backpack with his English notebook and his keys”. Paraguas es her y cámara es our."
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "Whose name is on the umbrella?",
+        "support_es": "¿De quién es el nombre del paraguas? Busca el nombre en el mango.",
+        "options": [
+          "Elena Ruiz",
+          "Mr. Lopez",
+          "Riverside Library"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Es Elena Ruiz porque dice “a small black umbrella with her name, Elena Ruiz, on the handle”. Las otras opciones no están en el paraguas."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What must you bring to the desk?",
+        "support_es": "¿Qué debes llevar al mostrador? Busca lo necesario para recoger.",
+        "options": [
+          "Your passport photo",
+          "A new book",
+          "Your library card"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Debes llevar la tarjeta porque dice “Bring your library card”. Foto de pasaporte y libro nuevo no aparecen."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "When is the office open?",
+        "support_es": "¿Cuándo abre la oficina? Busca días y horario.",
+        "options": [
+          "Every day at noon",
+          "Mondays, Wednesdays, and Fridays from four to seven",
+          "Only on Sundays"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Abre esos tres días de cuatro a siete porque dice “open Mondays, Wednesdays, and Fridays from four to seven”. Todos los días y solo domingos son incorrectos."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-23",
+    "level": "A1",
+    "title": "Gym timetable",
+    "objective_es": "Comprender un horario de gimnasio: apertura, clases y frecuencia.",
+    "grammar_es": "Presente simple con frecuencia presente: “open every day…”, “help you twice a week”. Preposiciones: “on Mondays… at eight”, “from six… to ten…”. Posesivos: “their personal card”, “their own towel”. Imperativos: “drink water”, “wear sports shoes”.",
+    "body": "Welcome to FitLife Gym on Park Street! We are open every day from six in the morning to ten at night. Members train with their personal card and their own towel. Group classes are very popular: yoga is on Mondays and Wednesdays at eight, swimming is on Tuesdays and Thursdays at seven, and zumba is on Fridays and Saturdays at six. Always drink water and wear sports shoes. Our trainers help you twice a week with your personal plan. Call us or visit reception for a free trial class today.",
+    "glossary": [
+      {
+        "en": "every day",
+        "es": "todos los días"
+      },
+      {
+        "en": "own",
+        "es": "propio/a"
+      },
+      {
+        "en": "wear",
+        "es": "llevar puesto / vestir"
+      },
+      {
+        "en": "twice a week",
+        "es": "dos veces por semana"
+      },
+      {
+        "en": "trial class",
+        "es": "clase de prueba"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "sequence",
+        "prompt_en": "When is the gym open?",
+        "support_es": "¿Cuándo abre el gimnasio? Busca el horario general.",
+        "options": [
+          "Only on Mondays",
+          "Only at night",
+          "Every day from six in the morning to ten at night"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Abre todos los días de seis a diez porque dice “open every day from six in the morning to ten at night”. Solo lunes y solo noche recortan el horario."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "When is yoga?",
+        "support_es": "¿Cuándo es el yoga? No lo confundas con otras clases.",
+        "options": [
+          "On Tuesdays and Thursdays at seven",
+          "On Mondays and Wednesdays at eight",
+          "On Fridays and Saturdays at six"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Yoga es lunes y miércoles a las ocho porque dice “yoga is on Mondays and Wednesdays at eight”. Martes y jueves es natación; viernes y sábado es zumba."
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "What must members bring to train?",
+        "support_es": "¿Qué deben llevar los socios para entrenar? Fíjate en lo marcado con el posesivo.",
+        "options": [
+          "Their personal card and their own towel",
+          "Only money",
+          "A new trainer"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Llevan tarjeta y toalla porque dice “Members train with their personal card and their own towel”. Solo dinero y un entrenador nuevo no aparecen."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "How often do trainers help you?",
+        "support_es": "¿Con qué frecuencia te ayudan los entrenadores? Busca la frecuencia.",
+        "options": [
+          "Once a year",
+          "Never",
+          "Twice a week"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Ayudan dos veces por semana porque dice “help you twice a week”. Una vez al año y nunca contradicen la frecuencia."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-24",
+    "level": "A1",
+    "title": "Weekend market in the park",
+    "objective_es": "Comprender un aviso de mercado: horario, precios, normas y actividades.",
+    "grammar_es": "Presente simple realmente presente: “The market is open on Saturdays and Sundays”, “Books cost from one euro”, “bread costs two euros fifty”. Imperativos: “bring your own bag”, “put paper and cups in the bins”, “Ask staff in yellow shirts for help”. Can: “You can pay by card or cash”, “Children can draw and paint”.",
+    "body": "Welcome to the Green Park Weekend Market! The market is open on Saturdays and Sundays from ten in the morning to six in the evening. There are books, flowers, and bread from shops. Please bring your own bag for your things. Books cost from one euro, and bread costs two euros fifty. You can pay by card or cash at every stand. Children can draw and paint in the small tent near the fountain. Please put paper and cups in the bins. Ask staff in yellow shirts for help. Enjoy your weekend!",
+    "glossary": [
+      {
+        "en": "market",
+        "es": "mercado"
+      },
+      {
+        "en": "own",
+        "es": "propio/a"
+      },
+      {
+        "en": "stand",
+        "es": "puesto"
+      },
+      {
+        "en": "fountain",
+        "es": "fuente"
+      },
+      {
+        "en": "bins",
+        "es": "papeleras"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "sequence",
+        "prompt_en": "When is the market open?",
+        "support_es": "¿Cuándo abre el mercado? Busca días y horario.",
+        "options": [
+          "Only on Mondays in the morning",
+          "Every night from six to ten",
+          "On Saturdays and Sundays from ten in the morning to six in the evening"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Abre fines de semana de diez a seis porque dice “The market is open on Saturdays and Sundays from ten in the morning to six in the evening.” Solo lunes y cada noche son horarios inventados."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What must you bring for your things?",
+        "support_es": "¿Qué debes llevar para tus cosas? Busca qué objeto se pide llevar.",
+        "options": [
+          "Your own bag",
+          "A yellow shirt",
+          "A small tent"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Debes llevar tu propia bolsa porque dice “Please bring your own bag for your things.” La camisa amarilla es del personal y la carpa es de los niños."
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "How much is bread?",
+        "support_es": "¿Cuánto cuesta el pan? No lo confundas con los libros.",
+        "options": [
+          "From one euro",
+          "Two euros fifty",
+          "Six euros"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El pan cuesta dos cincuenta porque dice “bread costs two euros fifty”. Desde un euro es de los libros porque dice “Books cost from one euro”; seis euros confunde la hora de cierre."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What can children do?",
+        "support_es": "¿Qué pueden hacer los niños? Busca la actividad infantil y el lugar.",
+        "options": [
+          "Pay by card at every stand",
+          "Ask staff in yellow shirts for help",
+          "Draw and paint in the small tent near the fountain"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Pueden dibujar y pintar en la carpa porque dice “Children can draw and paint in the small tent near the fountain.” Pagar con tarjeta y pedir ayuda son acciones de adultos en el aviso."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-13",
+    "level": "A2",
+    "title": "Evening English Course",
+    "objective_es": "Comprender un anuncio de curso: horario, grupo, materiales y precio.",
+    "grammar_es": "Presente simple; can para posibilidad; condicional con if + presente; preposiciones de tiempo (on, from...to).",
+    "body": "Do you want to learn English after work? Our evening course is perfect for busy adults. Classes are on Mondays and Wednesdays from 7 to 9 pm in the city centre. The groups are small, with a maximum of twelve students, and all teachers are friendly and experienced. You do not need books because all materials are free online. The first lesson is a free trial, so you can meet your teacher and see the classroom. The price is 60 euros per month, and you can pay by card or in cash. If you miss a class, you can watch the video and do extra practice at home. The next course starts on the fifth of October. Call us or visit our office to save your place today.",
+    "glossary": [
+      {
+        "en": "busy",
+        "es": "ocupado/a"
+      },
+      {
+        "en": "trial",
+        "es": "clase de prueba"
+      },
+      {
+        "en": "to miss",
+        "es": "faltar a, perderse"
+      },
+      {
+        "en": "to save a place",
+        "es": "reservar un lugar"
+      },
+      {
+        "en": "in cash",
+        "es": "en efectivo"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "When are the classes?",
+        "support_es": "¿Cuándo son las clases? Localiza el horario en el anuncio.",
+        "options": [
+          "Tuesdays and Thursdays in the morning",
+          "Mondays and Wednesdays from 7 to 9 pm",
+          "Every day from 9 to 5"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “Classes are on Mondays and Wednesdays from 7 to 9 pm”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What is the maximum number of students?",
+        "support_es": "¿Cuál es el número máximo de estudiantes? Busca el dato del grupo.",
+        "options": [
+          "Twenty students",
+          "Six students",
+          "Twelve students"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “with a maximum of twelve students”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What about the books and materials?",
+        "support_es": "¿Qué pasa con los libros y los materiales? Busca la frase sobre materiales.",
+        "options": [
+          "They are free online",
+          "Students must buy two books",
+          "Students must print them at work"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “all materials are free online”."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "If you miss a class, what can you do?",
+        "support_es": "Si faltas a una clase, ¿qué puedes hacer? Busca la condición con if.",
+        "options": [
+          "Pay extra money",
+          "Watch the video and do extra practice",
+          "Repeat the full month"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “If you miss a class, you can watch the video”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-14",
+    "level": "A2",
+    "title": "Las Flores Health Centre",
+    "objective_es": "Comprender información práctica de un centro: horario, documentos y servicios.",
+    "grammar_es": "Presente simple; can para posibilidad; imperativo cortés con please; preposiciones de tiempo y lugar.",
+    "body": "Welcome to Las Flores Health Centre. We are open from Monday to Friday, from 8 am to 8 pm, and on Saturdays from 9 am to 1 pm. You can see a family doctor, a nurse, or a dentist in the same building. To visit a doctor, please bring your ID card and your health card. You can ask for an appointment at the front desk or by phone. Emergency visits are free, but please call first if you can. Our pharmacy is on the ground floor and closes at 9 pm. Smoking is not allowed inside the centre. There is free Wi-Fi in the waiting room, and children can play in the small corner near the entrance. If you need test results, you can read them online with your personal code. Thank you for helping us keep the centre clean and quiet for everyone.",
+    "glossary": [
+      {
+        "en": "health card",
+        "es": "tarjeta sanitaria"
+      },
+      {
+        "en": "appointment",
+        "es": "cita"
+      },
+      {
+        "en": "ground floor",
+        "es": "planta baja"
+      },
+      {
+        "en": "allowed",
+        "es": "permitido"
+      },
+      {
+        "en": "quiet",
+        "es": "tranquilo, silencioso"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "When is the health centre open?",
+        "support_es": "¿Cuándo abre el centro de salud? Busca el horario semanal.",
+        "options": [
+          "Only Sundays from 10 am to 2 pm",
+          "Every day 24 hours",
+          "Monday to Friday 8 am to 8 pm and Saturdays 9 am to 1 pm"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “from Monday to Friday, from 8 am to 8 pm, and on Saturdays from 9 am to 1 pm”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What must you bring to see a doctor?",
+        "support_es": "¿Qué debes llevar para ver al médico? Busca los documentos.",
+        "options": [
+          "ID card and health card",
+          "Only money",
+          "Passport photos"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “please bring your ID card and your health card”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where is the pharmacy and when does it close?",
+        "support_es": "¿Dónde está la farmacia y cuándo cierra? Busca la frase de la farmacia.",
+        "options": [
+          "On the second floor, closes at 5 pm",
+          "On the ground floor, closes at 9 pm",
+          "Outside the city, open 24 hours"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “Our pharmacy is on the ground floor and closes at 9 pm”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "How can you get your test results?",
+        "support_es": "¿Cómo puedes obtener los resultados? Busca el modo de consulta.",
+        "options": [
+          "Read them online with a personal code",
+          "Ask a neighbour",
+          "Wait for a letter only"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “you can read them online with your personal code”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-15",
+    "level": "A2",
+    "title": "A Short Stay at Hotel Sol",
+    "objective_es": "Comprender una reseña corta de hotel: habitación, personal y opinión.",
+    "grammar_es": "Pasado simple (was, stayed, helped); but para contraste; adjetivos descriptivos.",
+    "body": "I stayed three nights in March in the city centre, very near the station. Hotel Sol is a small family hotel, not a luxury hotel, but it was perfect for me. My room was small but clean and quiet, with a comfortable bed and a private bathroom. Breakfast was simple: coffee, bread, fruit, and yoghurt, always fresh. The staff helped me with the bus and a map, and they were kind every day. The Wi-Fi was fast in the room and in the small lobby. One problem: the lift is very slow, and there is some noise from the street on Friday night. The price was 55 euros per night, cheaper than other hotels nearby. In my opinion, it is a good choice for a short and cheap visit.",
+    "glossary": [
+      {
+        "en": "stay",
+        "es": "estancia"
+      },
+      {
+        "en": "staff",
+        "es": "personal, empleados"
+      },
+      {
+        "en": "quiet",
+        "es": "tranquilo, silencioso"
+      },
+      {
+        "en": "lobby",
+        "es": "vestíbulo, recepción"
+      },
+      {
+        "en": "cheap",
+        "es": "barato"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "How long was the stay and where was the hotel?",
+        "support_es": "¿Cuánto duró la estancia y dónde estaba el hotel? Busca duración y lugar.",
+        "options": [
+          "Three nights in the city centre near the station",
+          "One week far from the city",
+          "One night at the airport"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “I stayed three nights in March in the city centre, very near the station”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What was the room like?",
+        "support_es": "¿Cómo era la habitación? Busca la descripción.",
+        "options": [
+          "Big but dirty and noisy",
+          "Small but clean and quiet",
+          "Big and expensive with a swimming pool"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “My room was small but clean and quiet”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "How was the staff?",
+        "support_es": "¿Cómo fue el trato del personal? Busca lo que hizo el personal.",
+        "options": [
+          "They did not speak to guests",
+          "They only cleaned rooms",
+          "They helped with the bus and a map"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “The staff helped me with the bus and a map”."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "Does the writer recommend the hotel?",
+        "support_es": "¿Recomienda el autor el hotel? Interpreta su opinión final.",
+        "options": [
+          "A bad hotel for all travellers",
+          "Only good for long holidays",
+          "A good choice for a short and cheap visit"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “a good choice for a short and cheap visit”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-16",
+    "level": "A2",
+    "title": "Café Luna",
+    "objective_es": "Comprender una reseña de café: gustos, precios y ambiente.",
+    "grammar_es": "Presente simple; pasado simple para anécdota; because para causa.",
+    "body": "I go there every Saturday after the market, and Café Luna is now my favourite place in the neighbourhood. It is a bright café with wooden tables, plants, and friendly waiters. My favourite is coffee with oat milk and homemade carrot cake. Both together cost only four euros. They also have fresh orange juice, sandwiches, and soups for lunch. Sometimes you must wait ten minutes because it is very popular, especially at twelve o'clock. You can pay by card or phone, and takeaway is also possible. Dogs are welcome on the terrace, but not inside. Last week I worked there with my laptop for two hours, and the Wi-Fi was perfect. I recommend it for good prices and a calm place to talk. I will definitely return next Saturday with my sister.",
+    "glossary": [
+      {
+        "en": "homemade",
+        "es": "casero"
+      },
+      {
+        "en": "oat milk",
+        "es": "leche de avena"
+      },
+      {
+        "en": "takeaway",
+        "es": "para llevar"
+      },
+      {
+        "en": "terrace",
+        "es": "terraza"
+      },
+      {
+        "en": "calm",
+        "es": "tranquilo"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "How often does the writer go to the café?",
+        "support_es": "¿Con qué frecuencia va el autor al café? Busca la frecuencia.",
+        "options": [
+          "Only once a year",
+          "Every Saturday after the market",
+          "Every evening after work"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “I go there every Saturday after the market”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What is the writer's favourite order?",
+        "support_es": "¿Cuál es el pedido favorito del autor? Busca su favorito.",
+        "options": [
+          "Coffee with oat milk and carrot cake",
+          "Only black tea",
+          "Orange juice and toast"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “My favourite is coffee with oat milk and homemade carrot cake”."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "What is the small problem?",
+        "support_es": "¿Cuál es el pequeño problema? Busca la causa de la espera.",
+        "options": [
+          "The café is always empty",
+          "The café is closed on Saturdays",
+          "You sometimes have to wait ten minutes"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “Sometimes you must wait ten minutes because it is very popular”."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "Why does the writer recommend it?",
+        "support_es": "¿Por qué lo recomienda el autor? Interpreta su valoración.",
+        "options": [
+          "Very expensive and noisy",
+          "Good prices and a calm place to talk",
+          "Good only for fast takeaway"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “I recommend it for good prices and a calm place to talk”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-17",
+    "level": "A2",
+    "title": "Book Your Appointment Online",
+    "objective_es": "Seguir instrucciones por pasos para pedir cita en línea.",
+    "grammar_es": "Imperativo y marcadores de secuencia (First, Second...); must para obligación; condicional con if.",
+    "body": "Do you need to see a doctor? Follow these five easy steps to book your appointment online. First, go to the clinic website and choose the speciality and the day. For example, select family doctor, dentist, or nurse. Second, choose the time: morning or afternoon. Green hours are free, grey hours are busy. Third, you must write your name, phone number, and health card number. Check the information carefully before you continue. Fourth, press confirm and wait for a message on your phone. You will receive a code and a reminder the day before. Fifth, arrive fifteen minutes early with your documents. If you cannot come, cancel the appointment online so another patient can use that time. If you need help, call 555 0140 from Monday to Friday.",
+    "glossary": [
+      {
+        "en": "to book",
+        "es": "reservar, pedir cita"
+      },
+      {
+        "en": "website",
+        "es": "sitio web"
+      },
+      {
+        "en": "to confirm",
+        "es": "confirmar"
+      },
+      {
+        "en": "reminder",
+        "es": "recordatorio, aviso"
+      },
+      {
+        "en": "to arrive",
+        "es": "llegar"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "sequence",
+        "prompt_en": "What is the first step?",
+        "support_es": "¿Cuál es el primer paso? Busca el paso uno.",
+        "options": [
+          "Call your friend first",
+          "Go directly to the hospital",
+          "Go to the website and choose speciality and day"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “go to the clinic website and choose the speciality and the day”."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "What information must you write?",
+        "support_es": "¿Qué información debes escribir? Busca el paso de los datos.",
+        "options": [
+          "Only your age",
+          "Name, phone number, and health card number",
+          "Only your address"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “you must write your name, phone number, and health card number”."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "When must you arrive?",
+        "support_es": "¿Cuándo debes llegar? Busca la indicación de llegada.",
+        "options": [
+          "Arrive fifteen minutes early with documents",
+          "Arrive one hour late",
+          "Arrive without documents"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “arrive fifteen minutes early with your documents”."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "If you cannot come, what should you do?",
+        "support_es": "Si no puedes ir, ¿qué debes hacer? Busca la condición con if.",
+        "options": [
+          "Do nothing",
+          "Pay extra money",
+          "Cancel the appointment online"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “If you cannot come, cancel the appointment online”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-18",
+    "level": "A2",
+    "title": "At the Airport",
+    "objective_es": "Comprender instrucciones de aeropuerto: control, puerta y retrasos.",
+    "grammar_es": "Imperativo; must para obligación; condicional con if; preposiciones de lugar.",
+    "body": "Flying for the first time? These instructions will help you at the airport. Before you leave home, put your passport, phone, and money in a small bag. Have your passport and boarding pass in your hand. At security, put your bag, jacket, and phone in a tray. In this airport example, the rule is: Liquids must be in small bottles inside a clear bag. Check your airport rules. Take off your belt and put it in the tray too. Do not carry sharp objects in your hand bag. After security, look at the screens for your gate number and walking time. For example, Gate B12 can take fifteen minutes on foot. Sit near your gate and listen for announcements. If your flight is delayed, stay near your gate and check the screens every ten minutes. You can ask staff in blue uniforms for help at any time.",
+    "glossary": [
+      {
+        "en": "boarding pass",
+        "es": "tarjeta de embarque"
+      },
+      {
+        "en": "tray",
+        "es": "bandeja"
+      },
+      {
+        "en": "belt",
+        "es": "cinturón"
+      },
+      {
+        "en": "gate",
+        "es": "puerta de embarque"
+      },
+      {
+        "en": "delayed",
+        "es": "retrasado"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "sequence",
+        "prompt_en": "What must you have ready at security?",
+        "support_es": "¿Qué debes tener listo en el control? Busca lo que debes tener en la mano.",
+        "options": [
+          "Passport and boarding pass in your hand",
+          "Only sunglasses",
+          "Hotel keys"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “Have your passport and boarding pass in your hand”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "According to the text, what is the rule for liquids?",
+        "support_es": "Según el texto, ¿cuál es la norma sobre líquidos? Busca la frase de líquidos.",
+        "options": [
+          "Big bottles in your pockets",
+          "No rules for liquids",
+          "Small bottles inside a clear bag"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “Liquids must be in small bottles inside a clear bag”."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "After security, what should you do?",
+        "support_es": "Después del control, ¿qué debes hacer? Busca la indicación posterior.",
+        "options": [
+          "Run to any plane",
+          "Look at the screens for the gate number",
+          "Wait at the entrance"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “After security, look at the screens for your gate number”."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "If your flight is delayed, what should you do?",
+        "support_es": "Si tu vuelo se retrasa, ¿qué debes hacer? Busca la condición con if.",
+        "options": [
+          "Stay near your gate",
+          "Leave the airport",
+          "Change your passport"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “If your flight is delayed, stay near your gate”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-19",
+    "level": "A2",
+    "title": "Two Supermarkets",
+    "objective_es": "Comparar dos tiendas: precio, horario y calidad.",
+    "grammar_es": "Comparativos (cheaper, fresher, bigger); contraste con however/but; presente simple.",
+    "body": "There are two supermarkets near my flat, and they are very different. MarketFresh is usually cheaper than SuperPlus, especially for fruit and vegetables. MarketFresh has fresher vegetables from local farms, and the bread is better. However, the shop is smaller, and the queues are longer on Saturdays. SuperPlus is bigger, cleaner, and more modern. It is open until 10 pm, later than MarketFresh, which closes at 8 pm. SuperPlus has more frozen food, more international products, and a bigger car park. But it is more expensive, and the staff are less friendly. In general, I prefer MarketFresh for daily shopping and SuperPlus for a big monthly visit. Both accept cards, and both have bags for 20 cents. Staff at MarketFresh are friendlier and often help older people with heavy bags.",
+    "glossary": [
+      {
+        "en": "fresh",
+        "es": "fresco"
+      },
+      {
+        "en": "frozen",
+        "es": "congelado"
+      },
+      {
+        "en": "queue",
+        "es": "cola, fila"
+      },
+      {
+        "en": "cheaper",
+        "es": "más barato"
+      },
+      {
+        "en": "to prefer",
+        "es": "preferir"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "cohesion",
+        "prompt_en": "Which supermarket is cheaper?",
+        "support_es": "¿Qué supermercado es más barato? Busca la comparación de precios.",
+        "options": [
+          "SuperPlus is always cheaper",
+          "MarketFresh is usually cheaper",
+          "Both have the same prices"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “MarketFresh is usually cheaper than SuperPlus”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Which shop is open later?",
+        "support_es": "¿Qué tienda abre hasta más tarde? Busca el horario de cierre.",
+        "options": [
+          "MarketFresh, open until 10 pm",
+          "Both close at 6 pm",
+          "SuperPlus, open until 10 pm"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “It is open until 10 pm, later than MarketFresh”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where are the vegetables fresher?",
+        "support_es": "¿Dónde es más fresca la verdura? Busca la frase de verduras.",
+        "options": [
+          "MarketFresh, with local fresh vegetables",
+          "SuperPlus, with only frozen food",
+          "Neither has vegetables"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “MarketFresh has fresher vegetables from local farms”."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "What does the writer prefer?",
+        "support_es": "¿Qué prefiere la persona que escribe? Interpreta su conclusión.",
+        "options": [
+          "Only SuperPlus always",
+          "MarketFresh daily, SuperPlus monthly",
+          "Neither, the writer shops online"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “I prefer MarketFresh for daily shopping and SuperPlus for a big monthly visit”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-20",
+    "level": "A2",
+    "title": "Bus or Bike",
+    "objective_es": "Comparar dos transportes urbanos y comprender normas básicas.",
+    "grammar_es": "Comparativos; must para obligación; should para recomendación; condicional con if.",
+    "body": "How do you travel in the city? I use both the bus and the bike, and each has advantages. The bus is faster than the bike when it rains or when you are tired. A monthly pass costs 30 euros, and buses pass every ten minutes. But in rush hour the bus is full and slow, and sometimes you must stand for thirty minutes. The bike is cheaper and more practical than the bus. I bought a second-hand bike for 120 euros, and now I pay nothing. Cycling to work takes me twenty minutes, the same as the bus. The writer says: You must wear a helmet and respect the bike lanes in this city. Rules change by city. You should also carry lights at night. If the weather is good, I prefer the bike. If it is cold or late, I take the bus.",
+    "glossary": [
+      {
+        "en": "helmet",
+        "es": "casco"
+      },
+      {
+        "en": "lane",
+        "es": "carril"
+      },
+      {
+        "en": "rush hour",
+        "es": "hora punta"
+      },
+      {
+        "en": "monthly pass",
+        "es": "abono mensual"
+      },
+      {
+        "en": "practical",
+        "es": "práctico"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "cohesion",
+        "prompt_en": "Which is faster in the rain?",
+        "support_es": "¿Qué es más rápido con lluvia? Busca la comparación con lluvia.",
+        "options": [
+          "The bike is always faster",
+          "Both are impossible in rain",
+          "The bus is faster when it rains"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “The bus is faster than the bike when it rains”."
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "Why is the bike a good option?",
+        "support_es": "¿Por qué es buena opción la bici? Busca la comparación general.",
+        "options": [
+          "The bike is cheaper and more practical",
+          "The bus is cheaper and more practical",
+          "Both cost the same"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “The bike is cheaper and more practical than the bus”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "According to the text, what must you do on a bike in this city?",
+        "support_es": "Según el texto, ¿qué debes hacer en bici en esta ciudad? Busca la obligación.",
+        "options": [
+          "Ride on the pavement fast",
+          "Wear a helmet and respect bike lanes",
+          "Ride without lights at night"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “You must wear a helmet and respect the bike lanes”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What is the bus like in rush hour?",
+        "support_es": "¿Cómo es el autobús en hora punta? Busca la descripción.",
+        "options": [
+          "Empty and fast always",
+          "Cheaper in rush hour",
+          "Full and slow in rush hour"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “in rush hour the bus is full and slow”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-21",
+    "level": "A2",
+    "title": "My First Job",
+    "objective_es": "Comprender una historia personal de trabajo en pasado.",
+    "grammar_es": "Pasado simple; marcadores temporales (at first, after); infinitivo tras taught (to + verbo).",
+    "body": "My first job was in a clothes warehouse when I was nineteen. I worked the morning shift from six to two, Monday to Friday. The work was hard: I carried boxes, counted shirts, and cleaned the shelves. At first I was slow and made mistakes, but my colleagues helped me a lot. My boss taught me to drive the small forklift, and after two months I was faster and more confident. The pay was not high, only 900 euros per month, but I saved money and bought my first computer. I met my best friend Pablo there, and we still play football together. Now I work in an office, but I remember that time with pride. That job taught me to be on time, to work in a team, and to never give up.",
+    "glossary": [
+      {
+        "en": "warehouse",
+        "es": "almacén"
+      },
+      {
+        "en": "shift",
+        "es": "turno"
+      },
+      {
+        "en": "forklift",
+        "es": "carretilla elevadora"
+      },
+      {
+        "en": "boss",
+        "es": "jefe/a"
+      },
+      {
+        "en": "confident",
+        "es": "seguro de sí mismo"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "What was the writer's first job?",
+        "support_es": "¿Cuál fue el primer trabajo de la persona que escribe? Busca el inicio de la historia.",
+        "options": [
+          "In a clothes warehouse at nineteen",
+          "As a teacher at twenty-five",
+          "As a driver at thirty"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “My first job was in a clothes warehouse when I was nineteen”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What was the writer's shift?",
+        "support_es": "¿Cuál era el turno de la persona que escribe? Busca el horario de trabajo.",
+        "options": [
+          "Night shift from ten to six",
+          "Morning shift from six to two",
+          "Afternoons only"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “I worked the morning shift from six to two”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What skill did the boss teach the writer?",
+        "support_es": "¿Qué habilidad enseñó el/la jefe/a a la persona que escribe? Busca la frase del jefe/a.",
+        "options": [
+          "To speak three languages",
+          "To repair computers",
+          "To drive the small forklift"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “My boss taught me to drive the small forklift”."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "What does the writer do now?",
+        "support_es": "¿Qué hace ahora la persona que escribe? Interpreta su situación actual.",
+        "options": [
+          "The writer works in an office and remembers the first job with pride",
+          "The writer still works in the warehouse",
+          "The writer never worked again"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “Now I work in an office, but I remember that time with pride”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-22",
+    "level": "A2",
+    "title": "A Cheap Family Holiday",
+    "objective_es": "Comprender una historia familiar en pasado: viaje, problema y final.",
+    "grammar_es": "Pasado simple; marcadores temporales (every morning, one day); and/but para unir ideas.",
+    "body": "Last August we travelled to the coast in our old car. It was our first family holiday in three years. We slept in a tent at a small campsite, five minutes from the beach. Every morning we bought bread and fruit in the village shop. The children played in the sea, and my wife and I rested under a big umbrella. One day we visited a castle on a hill, and we got lost, but a kind man showed us the way. In the evenings we cooked pasta and played cards outside the tent. It rained one afternoon, and water came into the tent, but we laughed a lot. The children learned to swim and want to return. It was a simple and cheap holiday, but it was one of the happiest weeks of our lives.",
+    "glossary": [
+      {
+        "en": "beach",
+        "es": "playa"
+      },
+      {
+        "en": "campsite",
+        "es": "camping"
+      },
+      {
+        "en": "tent",
+        "es": "tienda de campaña"
+      },
+      {
+        "en": "to get lost",
+        "es": "perderse"
+      },
+      {
+        "en": "kind",
+        "es": "amable"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "Where did they go last August?",
+        "support_es": "¿Adónde fueron el agosto pasado? Busca el destino.",
+        "options": [
+          "To the mountains by train",
+          "To the coast in an old car",
+          "Abroad by plane"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “Last August we travelled to the coast in our old car”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where did they sleep?",
+        "support_es": "¿Dónde durmieron? Busca el alojamiento.",
+        "options": [
+          "In a luxury hotel",
+          "At a friend's flat",
+          "In a tent at a campsite"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “We slept in a tent at a small campsite”."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "What problem did they have on the way to the castle?",
+        "support_es": "¿Qué problema tuvieron de camino al castillo? Busca el incidente del castillo.",
+        "options": [
+          "They got lost and a man helped them",
+          "They never left home",
+          "They cancelled the trip"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “and we got lost, but a kind man showed us the way”."
+      },
+      {
+        "kind": "inference",
+        "prompt_en": "How was the holiday for the children in the end?",
+        "support_es": "¿Cómo fue la vacación para los niños al final? Interpreta el resultado.",
+        "options": [
+          "They did not like the sea",
+          "The children learned to swim and want to return",
+          "They prefer winter holidays"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “The children learned to swim and want to return”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-23",
+    "level": "A2",
+    "title": "The Central Library",
+    "objective_es": "Comprender normas de biblioteca: carnet, préstamos y conducta.",
+    "grammar_es": "Condicional con if + presente; can/must para permiso y obligación; imperativo.",
+    "body": "Welcome to the Central Library. If you do not have a membership, you can read in the room but you cannot borrow books. Membership is free. To get it, bring your ID and a photo. The office is open on weekdays. You can borrow three books for two weeks. If you need more time, you can renew online once for seven days. If you return a book late, you pay a small fine of 50 cents per day. Please be quiet: you must keep your phone silent, and you can only drink water, not coffee. There are computers on the first floor. If all computers are busy, you can wait fifteen minutes and staff will help you. Children are welcome with an adult. If you lose a book, tell us quickly and we will find a fair solution together.",
+    "glossary": [
+      {
+        "en": "membership",
+        "es": "carnet de socio"
+      },
+      {
+        "en": "to borrow",
+        "es": "pedir prestado"
+      },
+      {
+        "en": "to return",
+        "es": "devolver"
+      },
+      {
+        "en": "fine",
+        "es": "multa"
+      },
+      {
+        "en": "silent",
+        "es": "silencioso"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "causal",
+        "prompt_en": "If you have no membership, what can you do?",
+        "support_es": "Si no tienes carnet, ¿qué puedes hacer? Busca la condición con if.",
+        "options": [
+          "Borrow five books",
+          "Use nothing",
+          "Read in the room but not borrow books"
+        ],
+        "correct_index": 2,
+        "explanation_es": "El texto dice “If you do not have a membership, you can read in the room but you cannot borrow books”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "How many books can you borrow?",
+        "support_es": "¿Cuántos libros puedes pedir? Busca la cantidad y el tiempo.",
+        "options": [
+          "Three books for two weeks",
+          "Ten books for one year",
+          "Only newspapers"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “You can borrow three books for two weeks”."
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "If you return a book late, what happens?",
+        "support_es": "Si devuelves tarde un libro, ¿qué pasa? Busca la condición con if.",
+        "options": [
+          "Lose the membership forever",
+          "Pay a small fine",
+          "Renew the book by phone for free"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “If you return a book late, you pay a small fine”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What must you do with your phone?",
+        "support_es": "¿Qué debes hacer con tu móvil? Busca la norma del teléfono.",
+        "options": [
+          "Keep your phone silent",
+          "Talk loudly on the phone",
+          "Watch videos without headphones"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “you must keep your phone silent”."
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-24",
+    "level": "A2",
+    "title": "A Day in the Office",
+    "objective_es": "Comprender la rutina diaria de una oficina: horario, tareas y reuniones.",
+    "grammar_es": "Presente simple; must para obligación; can para posibilidad; secuencia temporal (in the morning, after lunch, at three).",
+    "body": "Do you work in an office or a shop? Here is a normal day in our office. We start at nine and finish at five, Monday to Friday. You must wear the uniform and arrive on time. In the morning we check emails and plan the day. At eleven we have a short break in the kitchen. You can drink water or coffee there and talk with colleagues. At one o'clock we eat lunch in the dining room. After lunch we answer calls and help customers. At three we have a short meeting about the week. You can ask questions and share ideas. We finish reports before five. If you need extra time, you can finish a task the next day. It is a busy but friendly place to work.",
+    "glossary": [
+      {
+        "en": "uniform",
+        "es": "uniforme"
+      },
+      {
+        "en": "break",
+        "es": "pausa, descanso"
+      },
+      {
+        "en": "dining room",
+        "es": "comedor"
+      },
+      {
+        "en": "meeting",
+        "es": "reunión"
+      },
+      {
+        "en": "friendly",
+        "es": "amable, cordial"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "What are the office hours?",
+        "support_es": "¿Cuál es el horario de la oficina? Busca las horas de inicio y fin.",
+        "options": [
+          "Nine to five, Monday to Friday",
+          "Nights and weekends only",
+          "Two hours on Saturdays"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “We start at nine and finish at five, Monday to Friday”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What must you wear and do?",
+        "support_es": "¿Qué debes vestir y hacer? Busca la obligación.",
+        "options": [
+          "Wear any clothes and arrive late",
+          "Wear the uniform and arrive on time",
+          "Work from home in pyjamas"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “You must wear the uniform and arrive on time”."
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where do they eat lunch?",
+        "support_es": "¿Dónde comen? Busca el lugar del almuerzo.",
+        "options": [
+          "At their desks alone",
+          "In the dining room",
+          "Outside in the car"
+        ],
+        "correct_index": 1,
+        "explanation_es": "El texto dice “we eat lunch in the dining room”."
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "What happens at three?",
+        "support_es": "¿Qué pasa a las tres? Busca el evento de esa hora.",
+        "options": [
+          "A short meeting about the week",
+          "The office closes",
+          "Lunch in the kitchen"
+        ],
+        "correct_index": 0,
+        "explanation_es": "El texto dice “At three we have a short meeting about the week”."
+      }
+    ]
+  }
+]

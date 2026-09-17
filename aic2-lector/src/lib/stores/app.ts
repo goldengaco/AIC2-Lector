@@ -1,19 +1,39 @@
 import { writable, type Writable } from 'svelte/store';
 import { browser } from '$app/environment';
 
+type PersistedEntry = {
+  key: string;
+  store: Writable<unknown>;
+};
+
+const persistedEntries: PersistedEntry[] = [];
+let persistenceHydrated = false;
+
 function createPersistedStore<T>(key: string, initialValue: T) {
-  const storedValue = browser ? localStorage.getItem(key) : null;
-  const initial = storedValue ? JSON.parse(storedValue) : initialValue;
-  
-  const store: Writable<T> = writable(initial);
-  
-  if (browser) {
+  const store: Writable<T> = writable(initialValue);
+  persistedEntries.push({ key, store: store as Writable<unknown> });
+
+  return store;
+}
+
+export function hydratePersistedStores(): void {
+  if (!browser || persistenceHydrated) return;
+  persistenceHydrated = true;
+
+  for (const { key, store } of persistedEntries) {
+    const storedValue = localStorage.getItem(key);
+    if (storedValue) {
+      try {
+        store.set(JSON.parse(storedValue));
+      } catch {
+        localStorage.removeItem(key);
+      }
+    }
+
     store.subscribe(value => {
       localStorage.setItem(key, JSON.stringify(value));
     });
   }
-  
-  return store;
 }
 
 export const currentRoute = createPersistedStore('aic2.route', 'dashboard');

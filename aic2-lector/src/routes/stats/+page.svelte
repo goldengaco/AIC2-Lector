@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { getStats, getMonthlyStats, getWeeklyProgress, getVocabularyBreakdown, getWordsByLayer } from '$lib/db/stats';
+  import { getStats, getMonthlyStats, getWeeklyProgress, getVocabularyBreakdown, getWordsByLayer, getLearningEvidenceSummary, type LearningEvidenceSummary } from '$lib/db/stats';
   import { TrendingUp, Flame, BookOpen, Clock, Target, BarChart3, Trophy } from 'lucide-svelte';
   import type { UserStats, DailyProgress } from '$lib/db';
 
@@ -9,6 +9,7 @@
   let weekly = $state<DailyProgress[]>([]);
   let vocabBreakdown = $state({ mastered: 0, learning: 0, weak: 0, total: 0 });
   let wordsByLayer = $state<Record<string, number>>({});
+  let evidence = $state<LearningEvidenceSummary | undefined>();
 
   onMount(async () => {
     stats = await getStats();
@@ -16,6 +17,7 @@
     weekly = await getWeeklyProgress();
     vocabBreakdown = await getVocabularyBreakdown();
     wordsByLayer = await getWordsByLayer();
+    evidence = await getLearningEvidenceSummary();
   });
 
   const cefrLabels = {
@@ -35,6 +37,15 @@
     C1: { current: 10000, target: 10000 },
     C2: { current: 12000, target: 12000 },
   };
+
+  const evidenceLabels = {
+    formative: 'Práctica con ayuda',
+    transfer: 'Transferencia a texto nuevo',
+    'delayed-retest': 'Retención diferida',
+  } as const;
+
+  const formatPercent = (value: number | null) => value === null ? '—' : `${Math.round(value * 100)}%`;
+  const formatInterval = (lower: number, upper: number) => `${Math.round(lower * 100)}–${Math.round(upper * 100)}%`;
 </script>
 
 <div class="space-y-6">
@@ -138,7 +149,64 @@
   </div>
 
   <div class="card">
-    <h2 class="text-lg font-semibold text-gray-900 mb-4">CEFR Level Progress</h2>
+    <h2 class="text-lg font-semibold text-gray-900 mb-2">Evidencia longitudinal de lectura</h2>
+    <p class="text-sm text-gray-500 mb-4">
+      Resultados acumulados por actividad. Pueden incluir reintentos, texto visible y texto oculto: no son mediciones equivalentes. El intervalo Wilson supone respuestas independientes, supuesto que puede fallar al repetir textos. Los registros antiguos pueden no indicar el formato. Este resumen no certifica CEFR ni demuestra aprendizaje.
+    </p>
+    {#if evidence}
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b text-left text-gray-500">
+              <th class="py-2 pr-4 font-medium">Tipo</th>
+              <th class="py-2 px-2 font-medium">Respuestas</th>
+              <th class="py-2 px-2 font-medium">Precisión</th>
+              <th class="py-2 pl-2 font-medium">Intervalo orientativo</th>
+            </tr>
+          </thead>
+          <tbody>
+            {#each evidence.assessment as ledger}
+              <tr class="border-b last:border-0">
+                <td class="py-3 pr-4 font-medium text-gray-800">{evidenceLabels[ledger.role]}</td>
+                <td class="py-3 px-2 text-gray-600">{ledger.answered} <span class="text-xs">({ledger.measuredSessions} sesiones)</span></td>
+                <td class="py-3 px-2 font-semibold">{formatPercent(ledger.accuracy)}</td>
+                <td class="py-3 pl-2 text-gray-600">
+                  {#if ledger.interval}{formatInterval(ledger.interval.lower, ledger.interval.upper)}{:else}—{/if}
+                </td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      </div>
+      <div class="mt-4 space-y-2">
+        {#each evidence.assessment as ledger}
+          {#if ledger.answered > 0 && !ledger.enoughForDescriptiveTrend}
+            <p class="text-xs text-amber-700 bg-amber-50 rounded p-2">
+              {evidenceLabels[ledger.role]}: muestra exploratoria ({ledger.answered} respuestas). El umbral interno de 30 no garantiza estabilidad ni validez.
+            </p>
+          {/if}
+        {/each}
+      </div>
+      {@const calibrationTotal = evidence.calibration.reduce((sum, ledger) => sum + ledger.n, 0)}
+      {@const calibrationBias = evidence.calibration.reduce((sum, ledger) => sum + (ledger.bias ?? 0) * ledger.n, 0)}
+      <div class="mt-4 rounded-lg bg-gray-50 p-3 text-sm text-gray-600">
+        <p class="font-medium text-gray-800">Calibración de confianza</p>
+        {#if calibrationTotal >= 30}
+          <p class="mt-1">Sesgo medio ponderado: {formatPercent(calibrationBias / calibrationTotal)}. Positivo significa exceso de confianza.</p>
+        {:else}
+          <p class="mt-1">Hay {calibrationTotal} respuestas con confianza declarada. Aún no se muestra una tendencia para evitar sobreinterpretar una muestra pequeña.</p>
+        {/if}
+      </div>
+    {:else}
+      <p class="text-sm text-gray-500">Todavía no hay sesiones con evidencia longitudinal.</p>
+    {/if}
+  </div>
+
+  <div class="card">
+    <h2 class="text-lg font-semibold text-gray-900 mb-2">Hitos internos de práctica</h2>
+    <p class="text-sm text-gray-500 mb-4">
+      Estos hitos organizan volumen de vocabulario y actividad. No diagnostican ni certifican un nivel CEFR.
+    </p>
     <div class="space-y-6">
       {#each Object.entries(cefrLabels) as [level, label]}
         {@const isCurrentLevel = stats?.cefr_estimated === level}
@@ -157,11 +225,11 @@
               <div class="flex justify-between">
                 <span class="font-medium text-gray-900">{label}</span>
                 {#if isCurrentLevel}
-                  <span class="badge-success">Current</span>
+                  <span class="badge-success">Hito actual</span>
                 {/if}
               </div>
               <p class="text-sm text-gray-500 mt-1">
-                {isPastLevel ? 'Completed' : isCurrentLevel ? 'In progress' : 'Upcoming'}
+                {isPastLevel ? 'Hito alcanzado (interno)' : isCurrentLevel ? 'En práctica' : 'Pendiente'}
               </p>
             </div>
           </div>

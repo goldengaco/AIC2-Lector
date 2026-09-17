@@ -1,4 +1,4 @@
-const CACHE_NAME = 'aic2-lector-v1';
+const CACHE_NAME = 'aic2-lector-v2';
 const STATIC_ASSETS = [
   '/',
   '/study',
@@ -43,6 +43,21 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
 
   if (url.origin === location.origin) {
+    if (request.mode === 'navigate') {
+      event.respondWith(
+        fetch(request)
+          .then((response) => {
+            if (response.ok) {
+              const clone = response.clone();
+              caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+            }
+            return response;
+          })
+          .catch(() => caches.match(request))
+      );
+      return;
+    }
+
     event.respondWith(
       caches.match(request).then((cached) => {
         const fetched = fetch(request).then((response) => {

@@ -240,7 +240,7 @@
 <div class="space-y-6">
   <div>
     <h1 class="text-2xl font-bold text-gray-900">Tests & Checkpoints</h1>
-    <p class="text-gray-500 mt-1">Track your progress through CEFR levels</p>
+    <p class="text-gray-500 mt-1">Practica por dificultad; estos ejercicios no certifican CEFR</p>
   </div>
 
   {#if !currentTest.text && !currentTest.showResults}
@@ -273,7 +273,7 @@
     </div>
 
     <div class="card mt-6">
-      <h2 class="text-lg font-semibold text-gray-900 mb-4">Quick Level Indicator</h2>
+      <h2 class="text-lg font-semibold text-gray-900 mb-4">Mapa de práctica por dificultad</h2>
       <div class="flex items-center justify-center gap-4 py-8">
         {#each ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as level, i}
           <div class="flex items-center">
@@ -291,7 +291,7 @@
         {/each}
       </div>
       <p class="text-center text-sm text-gray-500 mt-4">
-        Your current estimated level is based on vocabulary size, reading speed, and comprehension.
+        Las etiquetas A1–C2 son rutas de práctica. Esta pantalla no estima un nivel CEFR porque no es una evaluación estandarizada.
       </p>
     </div>
 

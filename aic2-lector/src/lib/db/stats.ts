@@ -1,5 +1,12 @@
 import { db, type UserStats, type DailyProgress, type CefrLevel } from './index';
 import { estimateGradeLevel, getOverallProgress, getCategoryProgress } from './grades';
+import { combineWeightedAverage } from '$lib/reading/metrics';
+import {
+  aggregateAssessmentLedgers,
+  aggregateCalibrationLedgers,
+  type AssessmentLedgerSummary,
+  type CalibrationLedgerSummary,
+} from '$lib/reading/evidence';
 
 export async function getStats(): Promise<UserStats | undefined> {
   return db.userStats.get('main');
@@ -13,14 +20,35 @@ export async function getTodayProgress(): Promise<DailyProgress | null> {
 export async function recordDailyProgress(data: Partial<DailyProgress>): Promise<void> {
   const today = new Date().toISOString().split('T')[0];
   const existing = await getTodayProgress();
+  const addedSessions = data.sessions_count ?? 0;
+  const addedWpmSessions = data.validated_wpm_sessions ?? 0;
+  const addedComprehensionSessions = data.comprehension_sessions ?? 0;
 
   if (existing) {
+    const previousWpmSessions = existing.validated_wpm_sessions
+      ?? (existing.wpm_avg > 0 ? existing.sessions_count : 0);
+    const previousComprehensionSessions = existing.comprehension_sessions
+      ?? (existing.comprehension_avg > 0 ? existing.sessions_count : 0);
+
     await db.dailyProgress.update(existing.id, {
       words_reviewed: existing.words_reviewed + (data.words_reviewed || 0),
       words_learned: existing.words_learned + (data.words_learned || 0),
       reading_time_min: existing.reading_time_min + (data.reading_time_min || 0),
-      sessions_count: existing.sessions_count + (data.sessions_count || 0),
-      wpm_avg: data.wpm_avg || existing.wpm_avg,
+      sessions_count: existing.sessions_count + addedSessions,
+      wpm_avg: combineWeightedAverage(
+        existing.wpm_avg,
+        previousWpmSessions,
+        data.wpm_avg ?? 0,
+        addedWpmSessions,
+      ),
+      comprehension_avg: combineWeightedAverage(
+        existing.comprehension_avg,
+        previousComprehensionSessions,
+        data.comprehension_avg ?? 0,
+        addedComprehensionSessions,
+      ),
+      validated_wpm_sessions: previousWpmSessions + addedWpmSessions,
+      comprehension_sessions: previousComprehensionSessions + addedComprehensionSessions,
     });
   } else {
     await db.dailyProgress.add({
@@ -29,9 +57,11 @@ export async function recordDailyProgress(data: Partial<DailyProgress>): Promise
       words_reviewed: data.words_reviewed || 0,
       words_learned: data.words_learned || 0,
       reading_time_min: data.reading_time_min || 0,
-      sessions_count: data.sessions_count || 1,
-      wpm_avg: data.wpm_avg || 0,
-      comprehension_avg: 0,
+      sessions_count: addedSessions,
+      wpm_avg: addedWpmSessions > 0 ? (data.wpm_avg ?? 0) : 0,
+      comprehension_avg: addedComprehensionSessions > 0 ? (data.comprehension_avg ?? 0) : 0,
+      validated_wpm_sessions: addedWpmSessions,
+      comprehension_sessions: addedComprehensionSessions,
     });
   }
 
@@ -39,7 +69,7 @@ export async function recordDailyProgress(data: Partial<DailyProgress>): Promise
   if (stats) {
     const newWordsLearned = data.words_learned || 0;
     const newReadingTime = data.reading_time_min || 0;
-    const newSessions = data.sessions_count || 0;
+    const newSessions = addedSessions;
 
     const words = await db.words.toArray();
     const mastered = words.filter(w => w.confidence >= 0.85).length;
@@ -55,6 +85,11 @@ export async function recordDailyProgress(data: Partial<DailyProgress>): Promise
         ? stats.current_streak
         : 1);
 
+    const previousStatsWpmSessions = stats.validated_wpm_sessions
+      ?? (stats.avg_wpm > 0 ? stats.total_sessions : 0);
+    const previousStatsComprehensionSessions = stats.comprehension_sessions
+      ?? ((stats.avg_comprehension ?? 0) > 0 ? stats.total_sessions : 0);
+
     await db.userStats.update('main', {
       total_words_learned: stats.total_words_learned + newWordsLearned,
       total_words_mastered: mastered,
@@ -63,7 +98,20 @@ export async function recordDailyProgress(data: Partial<DailyProgress>): Promise
       current_streak: Math.max(newStreak, stats.current_streak),
       longest_streak: Math.max(newStreak, stats.longest_streak),
       last_session_date: new Date(),
-      avg_wpm: data.wpm_avg || stats.avg_wpm,
+      avg_wpm: combineWeightedAverage(
+        stats.avg_wpm,
+        previousStatsWpmSessions,
+        data.wpm_avg ?? 0,
+        addedWpmSessions,
+      ),
+      avg_comprehension: combineWeightedAverage(
+        stats.avg_comprehension ?? 0,
+        previousStatsComprehensionSessions,
+        data.comprehension_avg ?? 0,
+        addedComprehensionSessions,
+      ),
+      validated_wpm_sessions: previousStatsWpmSessions + addedWpmSessions,
+      comprehension_sessions: previousStatsComprehensionSessions + addedComprehensionSessions,
       updated_at: new Date(),
     });
   }
@@ -98,13 +146,50 @@ export async function getMonthlyStats() {
   const monthAgo = new Date();
   monthAgo.setDate(monthAgo.getDate() - 30);
   const progress = await db.dailyProgress.where('date').above(monthAgo.toISOString().split('T')[0]).toArray();
+  const validatedWpmSessions = progress.reduce(
+    (sum, item) => sum + (item.validated_wpm_sessions ?? (item.wpm_avg > 0 ? item.sessions_count : 0)),
+    0,
+  );
+  const comprehensionSessions = progress.reduce(
+    (sum, item) => sum + (item.comprehension_sessions ?? (item.comprehension_avg > 0 ? item.sessions_count : 0)),
+    0,
+  );
+  const weightedWpm = progress.reduce(
+    (sum, item) => sum + item.wpm_avg * (item.validated_wpm_sessions ?? (item.wpm_avg > 0 ? item.sessions_count : 0)),
+    0,
+  );
+  const weightedComprehension = progress.reduce(
+    (sum, item) => sum + item.comprehension_avg * (item.comprehension_sessions ?? (item.comprehension_avg > 0 ? item.sessions_count : 0)),
+    0,
+  );
+
   return {
     totalWordsLearned: progress.reduce((s, p) => s + p.words_learned, 0),
     totalReadingTime: progress.reduce((s, p) => s + p.reading_time_min, 0),
     totalSessions: progress.reduce((s, p) => s + p.sessions_count, 0),
-    avgWpm: progress.length > 0 ? Math.round(progress.reduce((s, p) => s + p.wpm_avg, 0) / progress.length) : 0,
-    avgComprehension: progress.length > 0 ? Math.round(progress.reduce((s, p) => s + p.comprehension_avg, 0) / progress.length) : 0,
+    avgWpm: validatedWpmSessions > 0 ? Math.round(weightedWpm / validatedWpmSessions) : 0,
+    avgComprehension: comprehensionSessions > 0 ? Math.round(weightedComprehension / comprehensionSessions) : 0,
     daysActive: progress.filter(p => p.sessions_count > 0).length,
+  };
+}
+
+export type LearningEvidenceSummary = {
+  totalSessions: number;
+  assessment: AssessmentLedgerSummary[];
+  calibration: CalibrationLedgerSummary[];
+};
+
+/**
+ * Returns conservative longitudinal evidence from locally stored sessions.
+ * Sessions without explicit item counts remain visible in the session total,
+ * but do not enter accuracy estimates.
+ */
+export async function getLearningEvidenceSummary(): Promise<LearningEvidenceSummary> {
+  const sessions = await db.readingSessions.toArray();
+  return {
+    totalSessions: sessions.length,
+    assessment: aggregateAssessmentLedgers(sessions),
+    calibration: aggregateCalibrationLedgers(sessions),
   };
 }
 

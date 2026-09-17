@@ -21,15 +21,6 @@
     estimatedDays = await getEstimatedDaysToLevels();
   });
 
-  const cefrColors: Record<string, string> = {
-    A1: 'bg-gray-100 text-gray-700',
-    A2: 'bg-blue-100 text-blue-700',
-    B1: 'bg-green-100 text-green-700',
-    B2: 'bg-yellow-100 text-yellow-700',
-    C1: 'bg-orange-100 text-orange-700',
-    C2: 'bg-red-100 text-red-700',
-  };
-
   function formatDays(days: number | null): string {
     if (days === null) return '—';
     if (days === 0) return '¡Hoy!';
@@ -55,11 +46,9 @@
       <h1 class="text-2xl font-bold text-gray-900">Dashboard</h1>
       <p class="text-gray-500 mt-1">Track your English reading journey</p>
     </div>
-    {#if stats?.cefr_estimated}
-      <span class="px-3 py-1.5 rounded-full text-sm font-semibold {cefrColors[stats.cefr_estimated]}">
-        Level: {stats.cefr_estimated}
-      </span>
-    {/if}
+    <span class="px-3 py-1.5 rounded-full text-sm font-semibold bg-primary-100 text-primary-700">
+      Meta: lectura C2
+    </span>
   </div>
 
   {#if showOnboarding}
@@ -155,8 +144,8 @@
         <Rocket class="w-5 h-5 text-white" />
       </div>
       <div>
-        <h2 class="text-lg font-semibold text-gray-900">Tu Camino a C2</h2>
-        <p class="text-sm text-gray-500">Estimación basada en tu ritmo actual</p>
+        <h2 class="text-lg font-semibold text-gray-900">Hitos hacia la lectura C2</h2>
+        <p class="text-sm text-gray-500">Proyección de práctica; no estima ni certifica nivel CEFR</p>
       </div>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
@@ -167,14 +156,14 @@
           </span>
           <p class="text-xs text-gray-500 mt-1">{lvl.label}</p>
           {#if lvl.isReached}
-            <p class="text-sm font-bold text-green-600 mt-1">✓ Logrado</p>
+            <p class="text-sm font-bold text-green-600 mt-1">✓ Hito interno</p>
           {:else if lvl.daysEstimated !== null}
             <div class="flex items-center justify-center gap-1 mt-1">
               <Calendar class="w-3 h-3 text-indigo-500" />
               <span class="text-sm font-bold text-indigo-600">{formatDays(lvl.daysEstimated)}</span>
             </div>
           {:else}
-            <p class="text-xs text-gray-400 mt-1">Estudia para estimar</p>
+            <p class="text-xs text-gray-400 mt-1">Registra más práctica</p>
           {/if}
         </div>
       {/each}

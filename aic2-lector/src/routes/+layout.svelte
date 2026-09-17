@@ -4,7 +4,7 @@
   import { initializeDatabase } from '$lib/db';
   import { seedDatabase, seedMorphemes, seedGrammarRules, seedAWL, seedMoreTexts, seedTechnicalTexts, seedGradeSkills, initializeStats } from '$lib/data/seeds';
   import { initializeUserGrade } from '$lib/db/grades';
-  import { isLoading } from '$lib/stores/app';
+  import { hydratePersistedStores, isLoading } from '$lib/stores/app';
   import Sidebar from '$lib/components/Sidebar.svelte';
   import Toast from '$lib/components/Toast.svelte';
   import KeyboardShortcuts from '$lib/components/KeyboardShortcuts.svelte';
@@ -13,6 +13,7 @@
 
   onMount(async () => {
     const t0 = performance.now();
+    hydratePersistedStores();
     
     await initializeDatabase();
     await initializeStats();

@@ -1,0 +1,866 @@
+[
+  {
+    "id": "foundation-a1-01",
+    "level": "A1",
+    "title": "Anna's Profile",
+    "objective_es": "Identificar nombre, vivienda, trabajo y horarios.",
+    "grammar_es": "I am = soy/estoy; I live = vivo; at introduce una hora.",
+    "body": "My name is Anna. I am 28 years old. I live in a small flat in Porto. I work as a shop assistant. I start work at nine. I finish at five. In the evening, I cook dinner with my brother. On Saturdays, we visit our mother. On Sundays, I rest and read books.",
+    "glossary": [
+      {
+        "en": "flat",
+        "es": "apartamento"
+      },
+      {
+        "en": "shop assistant",
+        "es": "empleada de tienda"
+      },
+      {
+        "en": "rest",
+        "es": "descansar"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "Where does Anna live?",
+        "support_es": "¿Dónde vive Anna?",
+        "options": [
+          "Porto",
+          "Madrid",
+          "London"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “I live in a small flat in Porto.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What is her job?",
+        "support_es": "¿Cuál es su trabajo?",
+        "options": [
+          "Teacher",
+          "Shop assistant",
+          "Driver"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “I work as a shop assistant.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "When does she finish work?",
+        "support_es": "¿Cuándo termina de trabajar?",
+        "options": [
+          "At nine",
+          "At six",
+          "At five"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “I finish at five.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Who cooks with Anna?",
+        "support_es": "¿Quién cocina con Anna?",
+        "options": [
+          "Her mother",
+          "Her brother",
+          "Her friend"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “I cook dinner with my brother.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-02",
+    "level": "A1",
+    "title": "Leo's Day",
+    "objective_es": "Leer una rutina y reconocer he.",
+    "grammar_es": "He retoma el nombre de un hombre; after significa después de.",
+    "body": "Leo gets up at six thirty every day. He drinks water and eats bread with jam. He walks to the bus stop at seven. He works in an office from eight to four. He eats lunch at noon. After work, he plays football with friends. At night, he watches the news and goes to bed at ten.",
+    "glossary": [
+      {
+        "en": "gets up",
+        "es": "se levanta"
+      },
+      {
+        "en": "bus stop",
+        "es": "parada de autobús"
+      },
+      {
+        "en": "noon",
+        "es": "mediodía"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "sequence",
+        "prompt_en": "What does Leo do after work?",
+        "support_es": "¿Qué hace después del trabajo?",
+        "options": [
+          "He cooks",
+          "He reads",
+          "He plays football"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “After work, he plays football with friends.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where does he work?",
+        "support_es": "¿Dónde trabaja?",
+        "options": [
+          "In an office",
+          "In a school",
+          "In a shop"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “He works in an office from eight to four.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What does he eat in the morning?",
+        "support_es": "¿Qué come por la mañana?",
+        "options": [
+          "Eggs",
+          "Bread with jam",
+          "Rice"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “He drinks water and eats bread with jam.”"
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "Who does 'He' refer to?",
+        "support_es": "¿A quién se refiere He?",
+        "options": [
+          "Leo",
+          "A teacher",
+          "A friend"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “Leo gets up at six thirty every day.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-03",
+    "level": "A1",
+    "title": "Green Market Notice",
+    "objective_es": "Encontrar horarios y ubicaciones en un aviso.",
+    "grammar_es": "Open = abierto; closed = cerrado; near = cerca de.",
+    "body": "Green Market Shop Notice. We are open Monday to Friday. Hours are nine to six. On Saturday, we are open from ten to two. We are closed on Sunday. Milk and bread are near the door. Fruit is in the middle. Please pay at the back. Thank you for your visit.",
+    "glossary": [
+      {
+        "en": "open",
+        "es": "abierto"
+      },
+      {
+        "en": "closed",
+        "es": "cerrado"
+      },
+      {
+        "en": "pay",
+        "es": "pagar"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "When is the shop closed?",
+        "support_es": "¿Cuándo está cerrada la tienda?",
+        "options": [
+          "On Sunday",
+          "On Friday",
+          "On Saturday"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “We are closed on Sunday.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where is the fruit?",
+        "support_es": "¿Dónde está la fruta?",
+        "options": [
+          "Near the door",
+          "In the middle",
+          "At the back"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “Fruit is in the middle.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where do customers pay?",
+        "support_es": "¿Dónde pagan los clientes?",
+        "options": [
+          "Near the door",
+          "In the middle",
+          "At the back"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “Please pay at the back.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What are the Saturday hours?",
+        "support_es": "¿Cuál es el horario del sábado?",
+        "options": [
+          "Nine to six",
+          "Ten to two",
+          "Closed all day"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “On Saturday, we are open from ten to two.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-04",
+    "level": "A1",
+    "title": "Lunch at Sunny Cafe",
+    "objective_es": "Localizar precios y horas en un menú.",
+    "grammar_es": "For introduce aquí el precio; from ... to ... indica un intervalo.",
+    "body": "Sunny Cafe Lunch Menu. Soups: tomato soup for three euros. Salads: green salad for four euros. Main meals: chicken with rice for seven euros. Fish with potatoes for eight euros. Drinks: water for one euro. Orange juice for two euros. Dessert: apple cake for three euros. Service from twelve to three.",
+    "glossary": [
+      {
+        "en": "soup",
+        "es": "sopa"
+      },
+      {
+        "en": "main meals",
+        "es": "platos principales"
+      },
+      {
+        "en": "dessert",
+        "es": "postre"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "How much is tomato soup?",
+        "support_es": "¿Cuánto cuesta la sopa de tomate?",
+        "options": [
+          "Four euros",
+          "Three euros",
+          "Seven euros"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “tomato soup for three euros.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "How much is chicken with rice?",
+        "support_es": "¿Cuánto cuesta el pollo con arroz?",
+        "options": [
+          "Seven euros",
+          "Eight euros",
+          "Three euros"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “chicken with rice for seven euros.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "How much is orange juice?",
+        "support_es": "¿Cuánto cuesta el jugo de naranja?",
+        "options": [
+          "One euro",
+          "Three euros",
+          "Two euros"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “Orange juice for two euros.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "When is lunch served?",
+        "support_es": "¿En qué horario sirven la comida?",
+        "options": [
+          "Ten to two",
+          "Twelve to three",
+          "Nine to six"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “Service from twelve to three.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-05",
+    "level": "A1",
+    "title": "Way to the Library",
+    "objective_es": "Seguir indicaciones y referencias con it.",
+    "grammar_es": "Los verbos Walk y Turn al inicio dan instrucciones. It puede retomar un lugar.",
+    "body": "To go to the library, start at the bus station. Walk straight on Park Street. Pass the bank and the school. Turn left on Flower Road. The library is next to the park. It is opposite the hospital. It is open every morning. Ask at the desk for help.",
+    "glossary": [
+      {
+        "en": "straight",
+        "es": "recto"
+      },
+      {
+        "en": "turn left",
+        "es": "gira a la izquierda"
+      },
+      {
+        "en": "next to",
+        "es": "al lado de"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "Where do you start?",
+        "support_es": "¿Dónde empiezan las indicaciones?",
+        "options": [
+          "At the bus station",
+          "At the park",
+          "At the hospital"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “start at the bus station.”"
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "What comes after passing the bank and school?",
+        "support_es": "¿Qué sigue después de pasar el banco y la escuela?",
+        "options": [
+          "Ask at the desk",
+          "Go home",
+          "Turn left"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “Turn left on Flower Road.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What is next to the library?",
+        "support_es": "¿Qué está al lado de la biblioteca?",
+        "options": [
+          "The school",
+          "The park",
+          "The bank"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “The library is next to the park.”"
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "What does 'It' refer to in 'It is opposite the hospital'?",
+        "support_es": "¿Qué lugar retoma It?",
+        "options": [
+          "The bank",
+          "The station",
+          "The library"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “The library is next to the park.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a1-06",
+    "level": "A1",
+    "title": "Sara's Birthday Party",
+    "objective_es": "Localizar fecha, hora, dirección e instrucciones en una invitación.",
+    "grammar_es": "Please introduce una petición; no indica negación. By Wednesday incluye el miércoles como fecha límite.",
+    "body": "You are invited to a birthday party for Sara. It is on Friday at six in the evening. The party is at her house at 5 Lake Street. We have pizza, cake, and music. Please bring no gifts. Please call Sara at 555 214 by Wednesday. We hope to see you there.",
+    "glossary": [
+      {
+        "en": "invited",
+        "es": "invitado"
+      },
+      {
+        "en": "party",
+        "es": "fiesta"
+      },
+      {
+        "en": "gifts",
+        "es": "regalos"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "Who is the party for?",
+        "support_es": "¿Para quién es la fiesta?",
+        "options": [
+          "Sara",
+          "Anna",
+          "Leo"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “a birthday party for Sara.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "When is the party?",
+        "support_es": "¿Cuándo es la fiesta?",
+        "options": [
+          "Wednesday morning",
+          "Friday at six in the evening",
+          "Saturday morning"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “It is on Friday at six in the evening.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where is the party?",
+        "support_es": "¿Dónde es la fiesta?",
+        "options": [
+          "At a cafe",
+          "At school",
+          "At 5 Lake Street"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “The party is at her house at 5 Lake Street.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What should guests do by Wednesday?",
+        "support_es": "¿Qué deben hacer a más tardar el miércoles?",
+        "options": [
+          "Bring gifts",
+          "Call Sara",
+          "Buy pizza"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “Please call Sara at 555 214 by Wednesday.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-01",
+    "level": "A2",
+    "title": "A Day at the Museum",
+    "objective_es": "Seguir una narración breve en pasado.",
+    "grammar_es": "Visited, left y returned describen acciones pasadas; after y then ordenan eventos.",
+    "body": "Last Saturday, our class visited the city museum. We left school at nine in the morning by bus. The guide showed us old clothes, tools, and photos. We learned how people lived one hundred years ago. After the visit, we ate sandwiches in the garden. Then we drew our favourite object. We returned to school at three in the afternoon. It was a sunny and quiet day. Everyone enjoyed the trip very much.",
+    "glossary": [
+      {
+        "en": "guide",
+        "es": "guía"
+      },
+      {
+        "en": "learned",
+        "es": "aprendimos"
+      },
+      {
+        "en": "trip",
+        "es": "excursión"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "When did the class leave school?",
+        "support_es": "¿Cuándo salió la clase?",
+        "options": [
+          "At three",
+          "At nine in the morning",
+          "At seven"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “We left school at nine in the morning by bus.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What did the guide show?",
+        "support_es": "¿Qué mostró el guía?",
+        "options": [
+          "Sandwiches",
+          "Buses",
+          "Old clothes, tools, and photos"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “The guide showed us old clothes, tools, and photos.”"
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "What happened after the sandwiches?",
+        "support_es": "¿Qué ocurrió después de comer los sándwiches?",
+        "options": [
+          "They drew an object",
+          "They left school",
+          "They met at the bus stop"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “Then we drew our favourite object.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where did the class eat?",
+        "support_es": "¿Dónde comió la clase?",
+        "options": [
+          "At school",
+          "In the garden",
+          "On the bus"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “After the visit, we ate sandwiches in the garden.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-02",
+    "level": "A2",
+    "title": "Weekend Visit Plan",
+    "objective_es": "Entender planes, referencias y una causa explícita en un correo.",
+    "grammar_es": "Can propone posibilidades; will expresa aquí intención; because introduce la razón.",
+    "body": "Hi Marta, Thanks for your email. I can visit you next weekend. My train arrives on Friday at seven in the evening. On Saturday morning, we can walk in the old town and visit the market. In the afternoon, we can cook together. On Sunday, I need to leave at four because I work on Monday. Please tell me if this plan is good for you. I will bring dessert. See you soon. Love, Elena",
+    "glossary": [
+      {
+        "en": "arrives",
+        "es": "llega"
+      },
+      {
+        "en": "old town",
+        "es": "centro histórico"
+      },
+      {
+        "en": "leave",
+        "es": "irse"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "When does the train arrive?",
+        "support_es": "¿Cuándo llega el tren?",
+        "options": [
+          "Sunday at four",
+          "Saturday morning",
+          "Friday at seven in the evening"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “My train arrives on Friday at seven in the evening.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "What is planned for Saturday morning?",
+        "support_es": "¿Qué planean para el sábado por la mañana?",
+        "options": [
+          "Visit the old town and market",
+          "Cook together",
+          "Leave at four"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “On Saturday morning, we can walk in the old town and visit the market.”"
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "Why does Elena leave on Sunday?",
+        "support_es": "¿Por qué se va el domingo?",
+        "options": [
+          "Marta is busy",
+          "She works on Monday",
+          "She dislikes the market"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “I need to leave at four because I work on Monday.”"
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "What does 'this plan' refer to?",
+        "support_es": "¿A qué se refiere this plan?",
+        "options": [
+          "The weekend visit",
+          "A work meeting",
+          "A train repair"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “I can visit you next weekend.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-03",
+    "level": "A2",
+    "title": "City Flat and Village House",
+    "objective_es": "Comparar dos lugares y comprender causas con so.",
+    "grammar_es": "Bigger significa más grande; but contrasta; so introduce una consecuencia.",
+    "body": "I live in two places during the year. My city flat is small but very quiet. It is near my work, so I walk to work every day. My village house is bigger and has a garden. It is far from shops, so I need the car. Life in the city is fast and busy. Life in the village is slow and calm. I like the city in winter and the village in summer because the weather is better there.",
+    "glossary": [
+      {
+        "en": "quiet",
+        "es": "tranquilo"
+      },
+      {
+        "en": "near",
+        "es": "cerca de"
+      },
+      {
+        "en": "far",
+        "es": "lejos de"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "How is the city flat described?",
+        "support_es": "¿Cómo es el apartamento de la ciudad?",
+        "options": [
+          "Big with a garden",
+          "Small but quiet",
+          "Far from work"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “My city flat is small but very quiet.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Which home is bigger?",
+        "support_es": "¿Qué vivienda es más grande?",
+        "options": [
+          "The village house",
+          "The city flat",
+          "Both are the same"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “My village house is bigger and has a garden.”"
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "Why is a car needed in the village?",
+        "support_es": "¿Por qué necesita auto en el pueblo?",
+        "options": [
+          "Work is near",
+          "The city is busy",
+          "The shops are far away"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “It is far from shops, so I need the car.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "How does the writer travel to work in the city?",
+        "support_es": "¿Cómo va al trabajo en la ciudad?",
+        "options": [
+          "By bus",
+          "On foot",
+          "By train"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “I walk to work every day.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-04",
+    "level": "A2",
+    "title": "Train Time Change",
+    "objective_es": "Distinguir horario anterior, nuevo e instrucciones.",
+    "grammar_es": "Will leave indica una salida futura; not contrasta con la hora anterior; same significa el mismo.",
+    "body": "Dear passengers, your train to Lisbon on Sunday has a new time. It will leave at ten thirty, not at nine. Please arrive at the station at ten. Go to platform four with your same ticket. The trip will take two hours. The train will stop in two small towns. Free water is available in car three. We are sorry for this change. Thank you for your understanding. For help, visit the information desk near the main door.",
+    "glossary": [
+      {
+        "en": "platform",
+        "es": "andén"
+      },
+      {
+        "en": "ticket",
+        "es": "boleto"
+      },
+      {
+        "en": "car",
+        "es": "vagón, en este contexto"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "What is the new departure time?",
+        "support_es": "¿Cuál es la nueva hora de salida?",
+        "options": [
+          "Nine",
+          "Ten",
+          "Ten thirty"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “It will leave at ten thirty, not at nine.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Which platform should passengers use?",
+        "support_es": "¿A qué andén deben ir?",
+        "options": [
+          "Platform four",
+          "Platform three",
+          "Platform two"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “Go to platform four with your same ticket.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "When should passengers arrive?",
+        "support_es": "¿A qué hora deben llegar?",
+        "options": [
+          "Nine",
+          "Ten",
+          "Ten thirty"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “Please arrive at the station at ten.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Which ticket can passengers use?",
+        "support_es": "¿Qué boleto pueden usar?",
+        "options": [
+          "The same ticket",
+          "Only a new ticket",
+          "No ticket is needed"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “Go to platform four with your same ticket.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-05",
+    "level": "A2",
+    "title": "How to Close the Shop",
+    "objective_es": "Seguir una secuencia de trabajo y una condición.",
+    "grammar_es": "First, next, then ordenan acciones. If introduce una condición; except señala una excepción.",
+    "body": "To close the shop in the evening, follow these steps. First, turn off all the lights except the front one. Next, count the money and put it in the safe. Then, clean the tables and wash the cups. After that, lock the back door and close the windows. Write the day and sales in the red book. Finally, put the key in the blue box. If there is a problem, call Marco at 555 890. Thank you for your careful work.",
+    "glossary": [
+      {
+        "en": "safe",
+        "es": "caja fuerte"
+      },
+      {
+        "en": "lock",
+        "es": "cerrar con llave"
+      },
+      {
+        "en": "except",
+        "es": "excepto"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "sequence",
+        "prompt_en": "What is the first step?",
+        "support_es": "¿Cuál es el primer paso?",
+        "options": [
+          "Turn off all lights except the front one",
+          "Count the money",
+          "Lock the back door"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “First, turn off all the lights except the front one.”"
+      },
+      {
+        "kind": "sequence",
+        "prompt_en": "What comes after putting the money in the safe?",
+        "support_es": "¿Qué sigue después de guardar el dinero?",
+        "options": [
+          "Call Marco",
+          "Clean tables and wash cups",
+          "Write in the red book"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “Then, clean the tables and wash the cups.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "Where should the key go?",
+        "support_es": "¿Dónde debe quedar la llave?",
+        "options": [
+          "In the safe",
+          "In the red book",
+          "In the blue box"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “Finally, put the key in the blue box.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "When should you call Marco?",
+        "support_es": "¿Cuándo debes llamar a Marco?",
+        "options": [
+          "Every morning",
+          "If there is a problem",
+          "Before counting money"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “If there is a problem, call Marco at 555 890.”"
+      }
+    ]
+  },
+  {
+    "id": "foundation-a2-06",
+    "level": "A2",
+    "title": "A Community Garden",
+    "objective_es": "Comprender un artículo sencillo y conectar causa y efecto.",
+    "grammar_es": "Presente simple para actividades habituales; because explica razones; they retoma personas.",
+    "body": "The community garden is behind the library. Six neighbours work there on Saturday mornings. They grow tomatoes, carrots, and flowers. Each person brings a tool, and everyone shares the work. They collect rainwater in large containers because summer days are often dry. New members can join by leaving their name at the library desk. In August, the group gives some vegetables to a local kitchen. The rest goes to the people who work in the garden.",
+    "glossary": [
+      {
+        "en": "neighbours",
+        "es": "vecinos"
+      },
+      {
+        "en": "rainwater",
+        "es": "agua de lluvia"
+      },
+      {
+        "en": "shares",
+        "es": "comparte"
+      }
+    ],
+    "questions": [
+      {
+        "kind": "literal",
+        "prompt_en": "Where is the garden?",
+        "support_es": "¿Dónde está el huerto?",
+        "options": [
+          "Inside the library",
+          "In a school",
+          "Behind the library"
+        ],
+        "correct_index": 2,
+        "explanation_es": "Evidencia: “The community garden is behind the library.”"
+      },
+      {
+        "kind": "causal",
+        "prompt_en": "Why do they collect rainwater?",
+        "support_es": "¿Por qué recolectan agua de lluvia?",
+        "options": [
+          "Summer days are often dry",
+          "The library is closed",
+          "The kitchen needs tools"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “They collect rainwater in large containers because summer days are often dry.”"
+      },
+      {
+        "kind": "literal",
+        "prompt_en": "How can new members join?",
+        "support_es": "¿Cómo pueden inscribirse nuevos miembros?",
+        "options": [
+          "Buy vegetables",
+          "Leave their name at the library desk",
+          "Call the kitchen"
+        ],
+        "correct_index": 1,
+        "explanation_es": "Evidencia: “New members can join by leaving their name at the library desk.”"
+      },
+      {
+        "kind": "cohesion",
+        "prompt_en": "Who does 'They' refer to in 'They grow tomatoes'?",
+        "support_es": "¿A quién se refiere They?",
+        "options": [
+          "The six neighbours",
+          "The vegetables",
+          "The library books"
+        ],
+        "correct_index": 0,
+        "explanation_es": "Evidencia: “Six neighbours work there on Saturday mornings.”"
+      }
+    ]
+  }
+]
